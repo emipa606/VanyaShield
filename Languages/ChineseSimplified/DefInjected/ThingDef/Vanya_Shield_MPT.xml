@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 1.0 -->
+  <V_ES_D3Ds.label>V-D3H护盾腰带</V_ES_D3Ds.label>
+  <V_ES_D3Ds.description>Vanya能量护盾腰带。“守护者”系列。D3H为第一代稳定量产型后期生产型，低能量上限，同时大幅降低成本，满足最低限度的防护，被广泛使用。</V_ES_D3Ds.description>
+  <V_ES_D4Cs.label>V-D4C护盾腰带</V_ES_D4Cs.label>
+  <V_ES_D4Cs.description>Vanya能量护盾腰带。“守护者”系列。D4C为第一代量产改进型，提高能量上限，为降低成本简化了系统，能量恢复速度慢，被广泛使用。</V_ES_D4Cs.description>
+  <V_ES_D5RMs.label>V-D5F红月·改</V_ES_D5RMs.label>
+  <V_ES_D5RMs.description>Vanya能量护盾腰带。“守护者”系列。『红月·改』为第一代最终量产型加强版，除大幅提高能量恢复速度并提供简易温控外，增加有限防火功能，一般为精锐部队配备。</V_ES_D5RMs.description>
+  <V_ES_D11s.label>V-D11旗鱼</V_ES_D11s.label>
+  <V_ES_D11s.description>Vanya能量护盾腰带。“守护者”系列。『旗鱼』为第二代简化量产型，保持速度能力的同时大幅降低成本，适合近战，一般为精锐部队配备。</V_ES_D11s.description>
+  <V_ES_D14s.label>V-D14新希望</V_ES_D14s.label>
+  <V_ES_D14s.description>Vanya能量护盾腰带。“守护者”系列。『新希望』为第二代民用量产型，新人机系统提高了工作效率，同时大幅降低成本，提供基本防护，受到广泛欢迎。</V_ES_D14s.description>
+  <V_ES_D6s.label>V-D6大吉岭</V_ES_D6s.label>
+  <V_ES_D6s.description>Vanya能量护盾腰带。“守护者”系列。『大吉岭』为第二代先行量产型，全面提高防护能力并增加新的动力和温控系统。</V_ES_D6s.description>
+  <V_ES_D7As.label>V-D7A玛利亚</V_ES_D7As.label>
+  <V_ES_D7As.description>Vanya能量护盾腰带。“守护者”系列。『玛利亚』为第二代量产型，着重强化防护能力，免疫精神攻击。</V_ES_D7As.description>
+  <V_ES_D8Ss.label>V-D8日冕</V_ES_D8Ss.label>
+  <V_ES_D8Ss.description>Vanya能量护盾腰带。“守护者”系列。『日冕』为第三代试做型，拥有无与伦比的能量上限和温度控制，全面强化所有防护能力，免疫精神攻击。</V_ES_D8Ss.description>
+  <V_ES_D9s.label>V-D9极光</V_ES_D9s.label>
+  <V_ES_D9s.description>Vanya能量护盾腰带。“守护者”系列。『极光』为第三代试做型，拥有无与伦比的能量恢复速度，强大的动力系统，免疫精神攻击。如果使用者足够强大，将不可战胜。</V_ES_D9s.description>
+  <V_ES_D3Ds.comps.2.versionInfo>V-D3H</V_ES_D3Ds.comps.2.versionInfo>
+  <V_ES_D4Cs.comps.2.versionInfo>V-D4C</V_ES_D4Cs.comps.2.versionInfo>
+  <V_ES_D5RMs.comps.2.versionInfo>V-D5F</V_ES_D5RMs.comps.2.versionInfo>
+  <V_ES_D5RMs.comps.2.alias>红月·改</V_ES_D5RMs.comps.2.alias>
+  <V_ES_D11s.comps.2.versionInfo>V-D11</V_ES_D11s.comps.2.versionInfo>
+  <V_ES_D11s.comps.2.alias>旗鱼</V_ES_D11s.comps.2.alias>
+  <V_ES_D14s.comps.2.versionInfo>V-D14</V_ES_D14s.comps.2.versionInfo>
+  <V_ES_D14s.comps.2.alias>新希望</V_ES_D14s.comps.2.alias>
+  <V_ES_D6s.comps.2.versionInfo>V-D6</V_ES_D6s.comps.2.versionInfo>
+  <V_ES_D6s.comps.2.alias>大吉岭</V_ES_D6s.comps.2.alias>
+  <V_ES_D7As.comps.2.versionInfo>V-D7A</V_ES_D7As.comps.2.versionInfo>
+  <V_ES_D7As.comps.2.alias>玛利亚</V_ES_D7As.comps.2.alias>
+  <V_ES_D8Ss.comps.2.versionInfo>V-D8</V_ES_D8Ss.comps.2.versionInfo>
+  <V_ES_D8Ss.comps.2.alias>日冕</V_ES_D8Ss.comps.2.alias>
+  <V_ES_D9s.comps.2.versionInfo>V-D9</V_ES_D9s.comps.2.versionInfo>
+  <V_ES_D9s.comps.2.alias>极光</V_ES_D9s.comps.2.alias>
+  <!-- 1.1 -->
+  <VanyaES_D3Ks.label>V-D3Kd护盾腰带</VanyaES_D3Ks.label>
+  <VanyaES_D3Ks.description>Vanya能量护盾腰带。“守护者”系列。一次性护盾。护盾会在能量耗尽后消失。V-D3K为公开设计版本，开放了相关制造资料。V-D3K秉承了守护者工业联盟的一贯宗旨。这种低廉的一次性护盾是穷人们的守护神。</VanyaES_D3Ks.description>
+  <VanyaES_D4Fs.label>V-D4F护盾腰带</VanyaES_D4Fs.label>
+  <VanyaES_D4Fs.description>Vanya能量护盾腰带。“守护者”系列。作为V-DC的改型，VD4F在控制成本的基础上进一步提高能量上限。V-D4F能够轻松胜任一场小规模的战斗，因此很受旅行者和守卫们欢迎。</VanyaES_D4Fs.description>
+  <VanyaES_D15s.label>V-D15血月</VanyaES_D15s.label>
+  <VanyaES_D15s.description>Vanya能量护盾腰带。“守护者”系列。V-D15的研发借鉴了V-D5红月和V-D6大吉岭的经验。作为大吉岭和V-D7玛利亚的替代品，『血月』拥有较高的能量上限和高速能量恢复，同时拥有温控和设计模块。这种护盾只会为精锐部队配备。</VanyaES_D15s.description>
+  <VanyaES_D11Cs.label>V-D11Cd旗鱼D</VanyaES_D11Cs.label>
+  <VanyaES_D11Cs.description>Vanya能量护盾腰带。“守护者”系列。一次性护盾。护盾会在能量耗尽后消失。作为V-D11旗鱼的简化版，『旗鱼D』进一步降低成本，同时保持动力优势，让敢死队能够放心冲杀，极高的性价比也令其受到士兵和商人们欢迎。</VanyaES_D11Cs.description>
+  <VanyaES_D14s.label>V-D14新希望</VanyaES_D14s.label>
+  <VanyaES_D14s.description>Vanya能量护盾腰带。“守护者”系列。『新希望』为第二代民用量产型，新人机系统提高了工作效率，同时大幅降低成本，提供基本防护，受到广泛欢迎。</VanyaES_D14s.description>
+  <VanyaES_D7Es.label>V-D7Ed玛利亚D</VanyaES_D7Es.label>
+  <VanyaES_D7Es.description>Vanya能量护盾腰带。“守护者”系列。一次性护盾。护盾会在能量耗尽后消失。简化版的『玛利亚D』仍然保持了令人畏惧的免疫精神攻击能力和傲视群雄的能量上限，像城墙一样守护着使用者，是最受一线人员信赖的护盾之一。</VanyaES_D7Es.description>
+  <VanyaES_D16s.label>V-D16大吉岭X</VanyaES_D16s.label>
+  <VanyaES_D16s.description>Vanya能量护盾腰带。“守护者”系列。『大吉岭X』又称为超级大吉岭，是V-D9极光的量产化实验产品。超级大吉岭并没有遵循帝国开放灵能的法令，继续以提高使用感受为宗旨。守护者系列拥有者守护者工业联盟也因此受到制裁和打击，贵族和皇族嘲笑他们的产品不过是奴隶们妄想的气泡。然而帝国亲卫队不断开出的订单似乎否定了这一切。V-D16拥有特化的极光动力系统，在提供最大限度保护的同时甚至有优于后者的动力表现。V-D16也是开发空间用护盾的一次尝试。</VanyaES_D16s.description>
+  <VanyaES_D8Ss.label>V-D8S日冕</VanyaES_D8Ss.label>
+  <VanyaES_D8Ss.description>Vanya能量护盾腰带。“守护者”系列。『日冕』为第三代试做型，拥有无与伦比的能量上限和温度控制，全面强化所有防护能力，免疫精神攻击。</VanyaES_D8Ss.description>
+  <VanyaES_D9s.label>V-D9极光</VanyaES_D9s.label>
+  <VanyaES_D9s.description>Vanya能量护盾腰带。“守护者”系列。『极光』为第三代试做型，拥有无与伦比的能量恢复速度，强大的动力系统，免疫精神攻击。如果使用者足够强大，将不可战胜。</VanyaES_D9s.description>
+  <VanyaES_D3Ks.comps.2.versionInfo>V-D3K 简易型</VanyaES_D3Ks.comps.2.versionInfo>
+  <VanyaES_D4Fs.comps.2.versionInfo>V-D4C</VanyaES_D4Fs.comps.2.versionInfo>
+  <VanyaES_D15s.comps.2.versionInfo>V-D15</VanyaES_D15s.comps.2.versionInfo>
+  <VanyaES_D15s.comps.2.alias>血月</VanyaES_D15s.comps.2.alias>
+  <VanyaES_D11Cs.comps.2.versionInfo>V-D11C 简易型</VanyaES_D11Cs.comps.2.versionInfo>
+  <VanyaES_D11Cs.comps.2.alias>旗鱼D</VanyaES_D11Cs.comps.2.alias>
+  <VanyaES_D14s.comps.2.versionInfo>V-D14</VanyaES_D14s.comps.2.versionInfo>
+  <VanyaES_D14s.comps.2.alias>新希望</VanyaES_D14s.comps.2.alias>
+  <VanyaES_D7Es.comps.2.versionInfo>V-D7E 简易型</VanyaES_D7Es.comps.2.versionInfo>
+  <VanyaES_D7Es.comps.2.alias>玛利亚D</VanyaES_D7Es.comps.2.alias>
+  <VanyaES_D16s.comps.2.versionInfo>V-D16</VanyaES_D16s.comps.2.versionInfo>
+  <VanyaES_D16s.comps.2.alias>大吉岭X</VanyaES_D16s.comps.2.alias>
+  <VanyaES_D8Ss.comps.2.versionInfo>V-D8</VanyaES_D8Ss.comps.2.versionInfo>
+  <VanyaES_D8Ss.comps.2.alias>日冕</VanyaES_D8Ss.comps.2.alias>
+  <VanyaES_D9s.comps.2.versionInfo>V-D9</VanyaES_D9s.comps.2.versionInfo>
+  <VanyaES_D9s.comps.2.alias>极光</VanyaES_D9s.comps.2.alias>
+</LanguageData>

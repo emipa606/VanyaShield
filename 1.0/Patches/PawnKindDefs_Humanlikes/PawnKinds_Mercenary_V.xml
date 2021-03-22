@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]/apparelTags</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]/apparelTags</xpath>
+      <value>
+        <li>IndustrialBasic</li>
+        <li>IndustrialAdvanced</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>SpacerMilitary</li>
+        <li>BeltDefensePop</li>
+        <li>VanyaBoss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]</xpath>
+      <value>
+        <apparelTags>
+          <li>IndustrialBasic</li>
+          <li>IndustrialAdvanced</li>
+          <li>IndustrialMilitaryBasic</li>
+          <li>IndustrialMilitaryAdvanced</li>
+          <li>SpacerMilitary</li>
+          <li>BeltDefensePop</li>
+          <li>VanyaBoss</li>
+        </apparelTags>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]/apparelMoney</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]/apparelMoney</xpath>
+      <value>
+        <apparelMoney>
+          <min>2500</min>
+          <max>14000</max>
+        </apparelMoney>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]</xpath>
+      <value>
+        <apparelMoney>
+          <min>12500</min>
+          <max>35000</max>
+        </apparelMoney>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]/weaponMoney</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]/weaponMoney</xpath>
+      <value>
+        <weaponMoney>
+          <min>2500</min>
+          <max>14000</max>
+        </weaponMoney>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]</xpath>
+      <value>
+        <weaponMoney>
+          <min>2500</min>
+          <max>14000</max>
+        </weaponMoney>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

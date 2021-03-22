@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VSBNoEnoughHitPointsToReset>没有足够的耐久度来激活护盾！</VSBNoEnoughHitPointsToReset>
+  <VSBForceResetLabel>强行激活</VSBForceResetLabel>
+  <VSBForceResetDESC>你可以使用20点耐久度来强行激活护盾充能。</VSBForceResetDESC>
+  <!--thing-->
+  <VSVersionInfo>型号：{0}</VSVersionInfo>
+  <VSAlias>别名：{0}</VSAlias>
+  <VSResetingTimeSec>重激活耗时（秒）：{0}</VSResetingTimeSec>
+  <VSEnergyOnReset>重激活初始能量：{0}</VSEnergyOnReset>
+  <VSEnergyLossPerDamage>吸收伤害基础耗能：{0} 每点伤害</VSEnergyLossPerDamage>
+  <VSMeleeCostFactor>吸收近战伤害耗能倍率：x{0}</VSMeleeCostFactor>
+  <VSRangedCostFactor>吸收远程伤害耗能倍率：x{0}</VSRangedCostFactor>
+  <VSDodgeChanceWorn>额外闪避几率：{0} （着装者闪避{1} x 增强闪避系数{2}）</VSDodgeChanceWorn>
+  <VSDodgeChanceDropped>增强闪避系数：{0}</VSDodgeChanceDropped>
+  <VSExtraFunction>额外功能：</VSExtraFunction>
+  <VSBreakWithSmoke>*破盾烟雾</VSBreakWithSmoke>
+  <VSForceActive>*强行激活</VSForceActive>
+  <VSCanDodge>*增强闪避</VSCanDodge>
+  <VSFireFoamBurster>*灭火泡沫</VSFireFoamBurster>
+  <VSCantAbsorbMeleeDamage>*无法吸收近战伤害</VSCantAbsorbMeleeDamage>
+</LanguageData>

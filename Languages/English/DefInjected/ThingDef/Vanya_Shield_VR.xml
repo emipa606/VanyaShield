@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 1.0 -->
+  <VanyaES_R017s.label>V-R0/17 Revolution</VanyaES_R017s.label>
+  <VanyaES_R017s.description>Vanya energy shield belt. Revolutionary series. The shield of fighter. V-R0/17 equips the top microspace transition engine - R0. It helps the user completely avoid enemy attacks by phase shifting. V-R0/17 has unparalleled comprehensive maneuverability and close combat defense. This shield will play an amazing role under the control of the fighters.</VanyaES_R017s.description>
+  <VanyaES_R3is.label>V-R3i Bullfrog</VanyaES_R3is.label>
+  <VanyaES_R3is.description>Vanya energy shield belt. Revolutionary series. The shield of fighter. V-R3i equips the low cost microspace transition engine - R3. This shield helps the user completely avoid enemy attacks by phase shifting. It's equipped with automatic fire foam burster and an improved man-machine system. Bullfrog is usually offered to workers.</VanyaES_R3is.description>
+  <VanyaES_R4s.label>V-R4 Alert</VanyaES_R4s.label>
+  <VanyaES_R4s.description>Vanya energy shield belt. Revolutionary series. The shield of fighter. V-R4 equips the microspace transition engine - R1. This shield helps the user completely avoid enemy attacks by phase shifting. Alerts is usually provided to combat forces.</VanyaES_R4s.description>
+  <VanyaES_R8s.label>V-R8 Mirage</VanyaES_R8s.label>
+  <VanyaES_R8s.description>Vanya energy shield belt. Revolutionary series. The shield of fighter. V-R8 equips the enhanced microspace transition engine - R1 plus. This shield helps the user completely avoid enemy attacks by phase shifting. V-R8 is equipped with automatic fire foam burster and a temperature control system. The shield can be forced to reactivate by consuming hit points when it is broken. Mirage is usually provided to elite units.</VanyaES_R8s.description>
+  <VanyaES_R9bs.label>V-R9b Rocket Angel</VanyaES_R9bs.label>
+  <VanyaES_R9bs.description>Vanya energy shield belt. Revolutionary series. The shield of fighter. V-R9b equips the microspace transition engine - R1. This shield helps the user completely avoid enemy attacks by phase shifting. V-R9b is equipped with a mental attack immune system. It releases smoke when it is broken. Rocket Angel is usually provided to elite units.</VanyaES_R9bs.description>
+  <VanyaES_R017s.comps.2.versionInfo>V-R0/17</VanyaES_R017s.comps.2.versionInfo>
+  <VanyaES_R017s.comps.2.alias>Revolution</VanyaES_R017s.comps.2.alias>
+  <VanyaES_R3is.comps.2.versionInfo>V-R3i</VanyaES_R3is.comps.2.versionInfo>
+  <VanyaES_R3is.comps.2.alias>Bullfrog</VanyaES_R3is.comps.2.alias>
+  <VanyaES_R4s.comps.2.versionInfo>V-R4</VanyaES_R4s.comps.2.versionInfo>
+  <VanyaES_R4s.comps.2.alias>Alert</VanyaES_R4s.comps.2.alias>
+  <VanyaES_R8s.comps.2.versionInfo>V-R8</VanyaES_R8s.comps.2.versionInfo>
+  <VanyaES_R8s.comps.2.alias>Mirage</VanyaES_R8s.comps.2.alias>
+  <VanyaES_R9bs.comps.2.versionInfo>V-R9b</VanyaES_R9bs.comps.2.versionInfo>
+  <VanyaES_R9bs.comps.2.alias>Rocket Angel</VanyaES_R9bs.comps.2.alias>
+  <!-- 1.1 -->
+  <VanyaES_R4ds.label>V-R4dd Alert D</VanyaES_R4ds.label>
+  <VanyaES_R4ds.description>Vanya energy shield belt. Revolutionary series. The shield of fighter. One-time shield. The shield will disappear when the energy is exhausted. V-R4 equips the microspace transition engine - R1. This shield helps the user completely avoid enemy attacks by phase shifting. This one-time shield reduces costs.</VanyaES_R4ds.description>
+  <VanyaES_R8hs.label>V-R8h Mirage SE</VanyaES_R8hs.label>
+  <VanyaES_R8hs.description>Vanya energy shield belt. Revolutionary series. The shield of fighter. Special edition. V-R8 equips the enhanced microspace transition engine - R1 plus. This shield helps the user completely avoid enemy attacks by phase shifting. V-R8E reduces costs by simplifying the design. Mirage SE is popular with fighters because of better price-quality ratio.</VanyaES_R8hs.description>
+  <VanyaES_R9ds.label>V-R9dd Rocket Angel D</VanyaES_R9ds.label>
+  <VanyaES_R9ds.description>Vanya energy shield belt. Revolutionary series. The shield of fighter. One-time shield. The shield will disappear when the energy is exhausted. V-R9b equips the microspace transition engine - R1. This shield helps the user completely avoid enemy attacks by phase shifting. V-R9b is equipped with a mental attack immune system. It releases smoke when it is broken. Rocket Angel D is popular with fighters because of better price-quality ratio.</VanyaES_R9ds.description>
+  <VanyaES_R10s.label>V-R10 Empire Angel</VanyaES_R10s.label>
+  <VanyaES_R10s.description>Vanya energy shield belt. Revolutionary series. The shield of fighter. V-R10 was developed based on the experience of V-R9 Rocket Angel. Only elite troops will equip it.</VanyaES_R10s.description>
+  <VanyaES_R4ds.comps.2.versionInfo>V-R4d Disposable</VanyaES_R4ds.comps.2.versionInfo>
+  <VanyaES_R4ds.comps.2.alias>AlertD</VanyaES_R4ds.comps.2.alias>
+  <VanyaES_R8hs.comps.2.versionInfo>V-R8h Special Edition</VanyaES_R8hs.comps.2.versionInfo>
+  <VanyaES_R8hs.comps.2.alias>MirageSE</VanyaES_R8hs.comps.2.alias>
+  <VanyaES_R9ds.comps.2.versionInfo>V-R9d</VanyaES_R9ds.comps.2.versionInfo>
+  <VanyaES_R9ds.comps.2.alias>Rocket Angel</VanyaES_R9ds.comps.2.alias>
+  <VanyaES_R10s.comps.2.versionInfo>V-R10</VanyaES_R10s.comps.2.versionInfo>
+  <VanyaES_R10s.comps.2.alias>Empire Angel</VanyaES_R10s.comps.2.alias>
+</LanguageData>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 1.0 -->
+  <VanyaES_VC6s.label>VV-C6护盾腰带</VanyaES_VC6s.label>
+  <VanyaES_VC6s.description>Vanya能量护盾腰带。“胜利者”系列。维克多军工获得V技术特许开发权后推出的第一个产品，面向民用的VV-C6拥有优秀的人机系统，并配有破盾烟雾，市场反应良好。</VanyaES_VC6s.description>
+  <VanyaES_VG8ds.label>VV-G8d游骑兵</VanyaES_VG8ds.label>
+  <VanyaES_VG8ds.description>Vanya能量护盾腰带。“胜利者”系列。维克多军工军用品代表，使用自主研发的Ranger空间机动引擎，完全闪避性能随格斗能力提高而增强。『游骑兵』在增强机动性的同时，加强射击能力。</VanyaES_VG8ds.description>
+  <VanyaES_VN3rs.label>VV-N3r射水鱼</VanyaES_VN3rs.label>
+  <VanyaES_VN3rs.description>Vanya能量护盾腰带。“胜利者”系列。维克多军工特种护盾之一，远程优势盾。『射水鱼』以牺牲接近战防护为代价，大幅增强远程防御性能，提高射击能力，配备自动灭火，免疫精神攻击。</VanyaES_VN3rs.description>
+  <VanyaES_VN22ms.label>VV-N22m猛禽</VanyaES_VN22ms.label>
+  <VanyaES_VN22ms.description>Vanya能量护盾腰带。“胜利者”系列。维克多军工特种护盾之一，近战优势盾。使用Ranger空间机动引擎，完全闪避性能随格斗能力提高而增强。『猛禽』以牺牲远程防护为代价，大幅增强近战防御性能，提高近战能力，免疫精神攻击。</VanyaES_VN22ms.description>
+  <VanyaES_VN5s.label>VV-N5蜜獾</VanyaES_VN5s.label>
+  <VanyaES_VN5s.description>Vanya能量护盾腰带。“胜利者”系列。维克多军工特种护盾之一，消耗优势盾。『蜜獾』以小幅增加护盾能耗为代价，大幅提高能量恢复速度，配备破盾烟雾，增加综合免疫力，免疫精神攻击。</VanyaES_VN5s.description>
+  <VanyaES_VExs.label>VV-Ex万花筒</VanyaES_VExs.label>
+  <VanyaES_VExs.description>Vanya能量护盾腰带。“胜利者”系列。维克多军工试做特种护盾，爆发优势盾。借鉴VD护盾试做品的经验，利用量子技术突破能耗极限，以几乎无法在使用中充能和无法配置温控系统为代价，得到无与伦比的护盾能耗比。『万花筒』拥有完美的外观，优于VD护盾的动力系统和射击辅助系统，免疫精神攻击。</VanyaES_VExs.description>
+  <VanyaES_VE12s.label>VV-E12太极</VanyaES_VE12s.label>
+  <VanyaES_VE12s.description>Vanya能量护盾腰带。“胜利者”系列。维克多军工试做特种护盾。『太极』集各种护盾特色和优势于一身。独有的情绪疏解系统令使用者更加冷静沉着。VV-E12使用Ranger空间机动引擎提高闪避，配备强行激活，自动灭火，破盾烟雾，拥有完美的温控系统，提高综合免疫力，免疫精神攻击。</VanyaES_VE12s.description>
+  <VanyaES_VC6s.comps.2.versionInfo>VV-C6</VanyaES_VC6s.comps.2.versionInfo>
+  <VanyaES_VG8ds.comps.2.versionInfo>VV-G8d</VanyaES_VG8ds.comps.2.versionInfo>
+  <VanyaES_VG8ds.comps.2.alias>游骑兵</VanyaES_VG8ds.comps.2.alias>
+  <VanyaES_VN3rs.comps.2.versionInfo>VV-N3r</VanyaES_VN3rs.comps.2.versionInfo>
+  <VanyaES_VN3rs.comps.2.alias>射水鱼</VanyaES_VN3rs.comps.2.alias>
+  <VanyaES_VN22ms.comps.2.versionInfo>VV-N22m</VanyaES_VN22ms.comps.2.versionInfo>
+  <VanyaES_VN22ms.comps.2.alias>猛禽</VanyaES_VN22ms.comps.2.alias>
+  <VanyaES_VN5s.comps.2.versionInfo>VV-N5</VanyaES_VN5s.comps.2.versionInfo>
+  <VanyaES_VN5s.comps.2.alias>蜜獾</VanyaES_VN5s.comps.2.alias>
+  <VanyaES_VExs.comps.2.versionInfo>VV-Ex</VanyaES_VExs.comps.2.versionInfo>
+  <VanyaES_VExs.comps.2.alias>万花筒</VanyaES_VExs.comps.2.alias>
+  <VanyaES_VE12s.comps.2.versionInfo>VV-E12</VanyaES_VE12s.comps.2.versionInfo>
+  <VanyaES_VE12s.comps.2.alias>太极</VanyaES_VE12s.comps.2.alias>
+  <!-- 1.1 -->
+  <VanyaES_VE14s.label>VV-E14帝国</VanyaES_VE14s.label>
+  <VanyaES_VE14s.description>Vanya能量护盾腰带。“胜利者”系列。维克多军工为帝国消费者专门制作的产品，『帝国』借鉴VV-E12太极的开发经验，同时提供强大的灵能支持。</VanyaES_VE14s.description>
+  <VanyaES_VE14s.comps.2.versionInfo>VV-E14</VanyaES_VE14s.comps.2.versionInfo>
+  <VanyaES_VE14s.comps.2.alias>帝国</VanyaES_VE14s.comps.2.alias>
+</LanguageData>

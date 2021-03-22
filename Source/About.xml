@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Vanya Shield</name>
+  <author>Vaniat, BOXrsxx, duduluu, RicoFox233, lolidrop</author>
+  <url>about:blank</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>BOXrsxx.VanyaShield</packageId>
+  <description>Note! The clothes and hairs in the preview picture are display items.
+
+Vanya's shield belts
+
+Vanya shield belts mass production and enhanced vanilla factions.Vanya energy shield was mass production and can be used by vanilla factions.
+
+感谢：xyq565861
+
+护盾量产与派系增强
+
+Vanya护盾腰带量产化，出现更多品种并可被标准派系装备。标准派系增强。
+
+
+版本变动：
+1.1.1032
+护盾可以设置生物编码
+
+1.1.1031
+优化护盾对热能和EMP伤害的效果
+
+1.1.1030
+→ 增加1.1版本Kurin（奎琳，魅狐族）兼容补丁
+
+1.1.1029
+→ V-D16大吉岭X 兼容 SOS2 支持太空行走
+
+1.1.1027
+→ 兼容1.0,1.1,皇权
+→ 各护盾依据版本剧情升级
+→ 增加兼容皇权DLC的护盾
+→ 平衡性调整
+
+1.0.2031 重新更新回1.0
+
+0.19.2006 兼容性调整。
+
+1.0.1963 bug修复。
+
+1.0.1949 平衡性调整。
+
+0.18.55 贴图更新。
+
+0.18.40 新增Revolutionary（VR）和Victor（VV）系列护盾。护盾外观，平衡性调整。兼容性修复。
+
+0.18.33 V-D8（日冕）减心灵敏感度由500%调整为200%。V-D5F（红月·改）增加灭火技能。V-D14（新希望）增加强制激活技能。
+
+0.18.30 优化。
+
+0.18.27 贴图修正。
+
+0.18.26 原型和旗鱼护盾增加通过消耗耐久度取消破盾状态，恢复充能的紧急技能。
+
+0.18.23 良性BUG修复。
+
+0.18.22 物品图标优化。
+
+0.18.2 界面优化。
+
+0.18.1 护盾性能提高。
+
+0.18.0 新的护盾产品，物品背景变化，性能调整。
+
+
+ </description>
+</ModMetaData>

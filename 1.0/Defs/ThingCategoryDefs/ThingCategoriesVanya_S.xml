@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Apparel -->
+  <ThingCategoryDef>
+    <defName>Vanya_Shield</defName>
+    <label>Vanya shield belt</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+</Defs>

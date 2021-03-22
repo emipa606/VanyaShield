@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VSBNoEnoughHitPointsToReset>This has no enough hit points to be actived!</VSBNoEnoughHitPointsToReset>
+  <VSBForceResetLabel>force active</VSBForceResetLabel>
+  <VSBForceResetDESC>You can pay 20 hit points to reactive the shield state.</VSBForceResetDESC>
+  <!--thing-->
+  <VSVersionInfo>version:{0}</VSVersionInfo>
+  <VSAlias>alias:{0}</VSAlias>
+  <VSResetingTimeSec>reactiving time(s):{0}</VSResetingTimeSec>
+  <VSEnergyOnReset>reactived energy:{0}</VSEnergyOnReset>
+  <VSEnergyLossPerDamage>base energy cost of absord:{0} per 1 damage</VSEnergyLossPerDamage>
+  <VSMeleeCostFactor>melee absord factor:*{0}</VSMeleeCostFactor>
+  <VSRangedCostFactor>ranged absord factor:*{0}</VSRangedCostFactor>
+  <VSDodgeChanceWorn>extra dodge chance:{0} (wearer dodge {1} * enhance dodge factor {2})</VSDodgeChanceWorn>
+  <VSDodgeChanceDropped>enhance dodge factor:{0}</VSDodgeChanceDropped>
+  <VSExtraFunction>extra function:</VSExtraFunction>
+  <VSBreakWithSmoke>*break with smoke</VSBreakWithSmoke>
+  <VSForceActive>*force active</VSForceActive>
+  <VSCanDodge>*enhanced dodge</VSCanDodge>
+  <VSFireFoamBurster>*fire foam burster</VSFireFoamBurster>
+  <VSCantAbsorbMeleeDamage>*can't absord melee damage</VSCantAbsorbMeleeDamage>
+</LanguageData>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 1.0 -->
+  <VanyaES_VC6s.label>VV-C6 shield belt</VanyaES_VC6s.label>
+  <VanyaES_VC6s.description>Vanya energy shield belt. Victor series. VV-C6 is the first mass-produced shield product of the Victor Military Group(VMG) after obtaining the Vanya technology license development rights. It's equipped with an excellent man-machine system. It releases smoke when it is broken. VV-C6 is usually offered to workers.</VanyaES_VC6s.description>
+  <VanyaES_VG8ds.label>VV-G8d Ranger</VanyaES_VG8ds.label>
+  <VanyaES_VG8ds.description>Vanya energy shield belt. Victor series. The main product of the VMG. VV-G8d equips the spatial phase engine - Ranger. This shield helps the user completely avoid enemy attacks by phase shifting. Ranger is usually provided to combat forces.</VanyaES_VG8ds.description>
+  <VanyaES_VN3rs.label>VV-N3r Archerfish</VanyaES_VN3rs.label>
+  <VanyaES_VN3rs.description>Vanya energy shield belt. Victor series. One of VMG special shield products. The shield of shooter. VV-N3r is equipped with automatic fire foam burster and a mental attack immune system. Archerfish is usually provided to elite units.</VanyaES_VN3rs.description>
+  <VanyaES_VN22ms.label>VV-N22m Raptor</VanyaES_VN22ms.label>
+  <VanyaES_VN22ms.description>Vanya energy shield belt. Victor series. One of VMG special shield products. The shield of fighter. VV-N22m equips the spatial phase engine - Ranger. This shield helps the user completely avoid enemy attacks by phase shifting. VV-N22m is equipped with a mental attack immune system.</VanyaES_VN22ms.description>
+  <VanyaES_VN5s.label>VV-N5 Ratel</VanyaES_VN5s.label>
+  <VanyaES_VN5s.description>Vanya energy shield belt. Victor series. One of VMG special shield products. The shield of stationary. VV-N5 is equipped with a mental attack immune system. It releases smoke when it is broken. Ratel is usually provided to elite units.</VanyaES_VN5s.description>
+  <VanyaES_VExs.label>VV-Ex 'Kaleidoscope' shield belt</VanyaES_VExs.label>
+  <VanyaES_VExs.description>Vanya energy shield belt. "Victor" series. The shield of mobility. VMG cutting-edge shield test works. The shield can be forced to reactivate by consuming hit points when it is broken. VV-Ex's recharge rate is unmatched.The "Kaleidoscope" is a jewel in shield products.</VanyaES_VExs.description>
+  <VanyaES_VE12s.label>VV-E12 'Tai Chi' shield belt</VanyaES_VE12s.label>
+  <VanyaES_VE12s.description>Vanya energy shield belt. "Victor" series. All-around shield. VMG cutting-edge shield test works. VV-E12 equips the spatial phase engine - Ranger. This shield helps the user completely avoid enemy attacks by phase shifting. VV-E12 is equipped with automatic fire foam burster, a mental attack immune system and a temperature control system. The shield can be forced to reactivate by consuming hit points when it is broken.</VanyaES_VE12s.description>
+  <VanyaES_VC6s.comps.2.versionInfo>VV-C6</VanyaES_VC6s.comps.2.versionInfo>
+  <VanyaES_VG8ds.comps.2.versionInfo>VV-G8d</VanyaES_VG8ds.comps.2.versionInfo>
+  <VanyaES_VG8ds.comps.2.alias>Ranger</VanyaES_VG8ds.comps.2.alias>
+  <VanyaES_VN3rs.comps.2.versionInfo>VV-N3r</VanyaES_VN3rs.comps.2.versionInfo>
+  <VanyaES_VN3rs.comps.2.alias>Archerfish</VanyaES_VN3rs.comps.2.alias>
+  <VanyaES_VN22ms.comps.2.versionInfo>VV-N22m</VanyaES_VN22ms.comps.2.versionInfo>
+  <VanyaES_VN22ms.comps.2.alias>Raptor</VanyaES_VN22ms.comps.2.alias>
+  <VanyaES_VN5s.comps.2.versionInfo>VV-N5</VanyaES_VN5s.comps.2.versionInfo>
+  <VanyaES_VN5s.comps.2.alias>Ratel</VanyaES_VN5s.comps.2.alias>
+  <VanyaES_VExs.comps.2.versionInfo>VV-Ex</VanyaES_VExs.comps.2.versionInfo>
+  <VanyaES_VExs.comps.2.alias>Kaleidoscope</VanyaES_VExs.comps.2.alias>
+  <VanyaES_VE12s.comps.2.versionInfo>VV-E12</VanyaES_VE12s.comps.2.versionInfo>
+  <VanyaES_VE12s.comps.2.alias>Tai Chi</VanyaES_VE12s.comps.2.alias>
+  <!-- 1.1 -->
+  <VanyaES_VE14s.label>VV-E14 Empire</VanyaES_VE14s.label>
+  <VanyaES_VE14s.description>Vanya energy shield belt. Victor series. VV-E14 is a product for empire consumers. it was developed based on the experience of VV-E12 Tai Chi. Empire has strengthened psychic ability.</VanyaES_VE14s.description>
+  <VanyaES_VE14s.comps.2.versionInfo>VV-E14</VanyaES_VE14s.comps.2.versionInfo>
+  <VanyaES_VE14s.comps.2.alias>Empire</VanyaES_VE14s.comps.2.alias>
+</LanguageData>

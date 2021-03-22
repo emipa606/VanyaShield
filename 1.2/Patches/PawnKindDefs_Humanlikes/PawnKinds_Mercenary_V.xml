@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]/apparelTags</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]/apparelTags</xpath>
+      <value>
+        <li>IndustrialBasic</li>
+        <li>IndustrialAdvanced</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>SpacerMilitary</li>
+        <li>BeltDefensePop</li>
+        <li>VanyaBoss</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]</xpath>
+      <value>
+        <apparelTags>
+          <li>IndustrialBasic</li>
+          <li>IndustrialAdvanced</li>
+          <li>IndustrialMilitaryBasic</li>
+          <li>IndustrialMilitaryAdvanced</li>
+          <li>SpacerMilitary</li>
+          <li>BeltDefensePop</li>
+          <li>VanyaBoss</li>
+        </apparelTags>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]/apparelMoney</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]/apparelMoney</xpath>
+      <value>
+        <apparelMoney>12500~35000</apparelMoney>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/PawnKindDef[defName = "PirateBoss"]</xpath>
+      <value>
+        <apparelMoney>12500~35000</apparelMoney>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

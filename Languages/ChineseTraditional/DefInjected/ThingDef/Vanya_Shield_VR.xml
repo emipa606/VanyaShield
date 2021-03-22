@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 1.0 -->
+  <VanyaES_R017s.label>V-R0/17革命</VanyaES_R017s.label>
+  <VanyaES_R017s.description>Vanya能量护盾腰带。“革命者”系列。近战优势盾。将开创性的感应式微空间波动和智能姿态悬浮技术完美结合的产物——R0超级微空间引擎应用到护盾，根据使用者的近战闪避获得并增强完全闪避能力。『革命』作为军方特种作战要求的秘密试作品，超越VD护盾的 “Vanya-Revolutionary” 系列第一作堪称完美。V-R0/17拥有无与伦比的综合机动能力和接近战防御力，在格斗达人驾驭下将发挥惊人效果。遗憾的是，V-R0/17的强大让军方不安，这个来自边缘星球的技术瑰宝也令闪耀世界的核心统治蒙羞。在一次血腥的维稳行动后，‘革命’被抹杀，然而传说并未终结……</VanyaES_R017s.description>
+  <VanyaES_R3is.label>V-R3i牛蛙</VanyaES_R3is.label>
+  <VanyaES_R3is.description>Vanya能量护盾腰带。“革命者”系列。近战优势盾。『牛蛙』使用低成本微空间跃迁引擎R3，拥有基础的增强闪避和自动灭火功能，改良人机系统提高了搬运效率。在民间广受赞誉。</VanyaES_R3is.description>
+  <VanyaES_R4s.label>V-R4警戒</VanyaES_R4s.label>
+  <VanyaES_R4s.description>Vanya能量护盾腰带。“革命者”系列。近战优势盾。『警戒』使用微空间引擎R1增强闪避，完全闪避性能随格斗能力提高而增强。一般为精锐部队配备。</VanyaES_R4s.description>
+  <VanyaES_R8s.label>V-R8幻影</VanyaES_R8s.label>
+  <VanyaES_R8s.description>Vanya能量护盾腰带。“革命者”系列。近战优势盾。『幻影』使用增强型微空间引擎R1-plus增强闪避，完全闪避性能随格斗能力提高而增强。在『警戒』基础上继续提高机动性，改善护盾能耗，增加简易温控系统，以及强制激活和自动灭火功能。</VanyaES_R8s.description>
+  <VanyaES_R9bs.label>V-R9b火箭天使</VanyaES_R9bs.label>
+  <VanyaES_R9bs.description>Vanya能量护盾腰带。“革命者”系列。近战优势盾。『火箭天使』使用微空间引擎R1增强闪避，完全闪避性能随格斗能力提高而增强。在『警戒』基础上大幅提高能量上限，改善护盾能耗，增加破盾烟雾功能，免疫精神攻击。</VanyaES_R9bs.description>
+  <VanyaES_R017s.comps.2.versionInfo>V-R0/17</VanyaES_R017s.comps.2.versionInfo>
+  <VanyaES_R017s.comps.2.alias>革命</VanyaES_R017s.comps.2.alias>
+  <VanyaES_R3is.comps.2.versionInfo>V-R3i</VanyaES_R3is.comps.2.versionInfo>
+  <VanyaES_R3is.comps.2.alias>牛蛙</VanyaES_R3is.comps.2.alias>
+  <VanyaES_R4s.comps.2.versionInfo>V-R4</VanyaES_R4s.comps.2.versionInfo>
+  <VanyaES_R4s.comps.2.alias>警戒</VanyaES_R4s.comps.2.alias>
+  <VanyaES_R8s.comps.2.versionInfo>V-R8</VanyaES_R8s.comps.2.versionInfo>
+  <VanyaES_R8s.comps.2.alias>幻影</VanyaES_R8s.comps.2.alias>
+  <VanyaES_R9bs.comps.2.versionInfo>V-R9b</VanyaES_R9bs.comps.2.versionInfo>
+  <VanyaES_R9bs.comps.2.alias>火箭天使</VanyaES_R9bs.comps.2.alias>
+  <!-- 1.1 -->
+  <VanyaES_R4ds.label>V-R4dd警戒D</VanyaES_R4ds.label>
+  <VanyaES_R4ds.description>Vanya能量护盾腰带。“革命者”系列。近战优势盾。一次性护盾。护盾会在能量耗尽后消失。简化版的『警戒』降低了成本并被更多的人接受。</VanyaES_R4ds.description>
+  <VanyaES_R8hs.label>V-R8h幻影SE</VanyaES_R8hs.label>
+  <VanyaES_R8hs.description>Vanya能量护盾腰带。“革命者”系列。近战优势盾。特别版。『幻影SE』进一步简化设计，去掉了灭火模块，同时基本保持V-R8原有的优势，在同级产品中获得了巨大的价格优势。高性价比吸引了很多战士和武者。</VanyaES_R8hs.description>
+  <VanyaES_R9ds.label>V-R9dd火箭天使D</VanyaES_R9ds.label>
+  <VanyaES_R9ds.description>Vanya能量护盾腰带。“革命者”系列。近战优势盾。一次性护盾。护盾会在能量耗尽后消失。『火箭天使D』并没有因为简化而失去精神防护。相反，由于被鄙视的守护者系列防护表现亮眼，小贵族和低阶皇室们开始重新思考灵能与防护之间的取舍，而V-R9d正巧进入了他们的视野，符合风格的该产品迅速成为贵族皇室热捧的对象。</VanyaES_R9ds.description>
+  <VanyaES_R10s.label>V-R10帝国天使</VanyaES_R10s.label>
+  <VanyaES_R10s.description>Vanya能量护盾腰带。“革命者”系列。近战优势盾。革命者系列现任拥有者宗师委员会开发的新产品。『帝国天使』的名称显然是在向贵族方面示好。该型号借鉴了『火箭天使』的研发经验，增加了灭火模块，整体性能可以叫板守护者系列的招牌产品『玛利亚』。这种护盾只会为精锐部队配备。</VanyaES_R10s.description>
+  <VanyaES_R4ds.comps.2.versionInfo>V-R4d 简化版</VanyaES_R4ds.comps.2.versionInfo>
+  <VanyaES_R4ds.comps.2.alias>警戒D</VanyaES_R4ds.comps.2.alias>
+  <VanyaES_R8hs.comps.2.versionInfo>V-R8h 特别版</VanyaES_R8hs.comps.2.versionInfo>
+  <VanyaES_R8hs.comps.2.alias>幻影SE</VanyaES_R8hs.comps.2.alias>
+  <VanyaES_R9ds.comps.2.versionInfo>V-R9d 简化版</VanyaES_R9ds.comps.2.versionInfo>
+  <VanyaES_R9ds.comps.2.alias>火箭天使D</VanyaES_R9ds.comps.2.alias>
+  <VanyaES_R10s.comps.2.versionInfo>V-R10</VanyaES_R10s.comps.2.versionInfo>
+  <VanyaES_R10s.comps.2.alias>帝国天使</VanyaES_R10s.comps.2.alias>
+</LanguageData>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 1.0 -->
+  <V_ES_D3Ds.label>V-D3H shield belt</V_ES_D3Ds.label>
+  <V_ES_D3Ds.description>Vanya energy shield belt. Defender series. First generation of mass production later improvement type. Lower capacity. The cost of V-D3H is very low, suitable for mass production.</V_ES_D3Ds.description>
+  <V_ES_D4Cs.label>V-D4C shield belt</V_ES_D4Cs.label>
+  <V_ES_D4Cs.description>Vanya energy shield belt. Defender series. First generation of mass production improved type. Standard capacity and energy recovery is slow. The cost of V-D4C is low, suitable for mass production.</V_ES_D4Cs.description>
+  <V_ES_D5RMs.label>V-D5F Red Moon plus</V_ES_D5RMs.label>
+  <V_ES_D5RMs.description>Vanya energy shield belt. Defender series. Red Moon is the final mass production type of the first generation products. Energy recovery is faster than older models. V-D5F is usually offered to combat forces.</V_ES_D5RMs.description>
+  <V_ES_D11s.label>V-D11 Sailfish</V_ES_D11s.label>
+  <V_ES_D11s.description>Vanya energy shield belt. Defender series. Sailfish is the simplified mass production type of the second generation products. V-D11 is usually offered to combat forces.</V_ES_D11s.description>
+  <V_ES_D14s.label>V-D14 New Hope</V_ES_D14s.label>
+  <V_ES_D14s.description>Vanya energy shield belt. Defender series. NewHope is the civil mass production type of the second generation products. V-D14 is usually offered to workers.</V_ES_D14s.description>
+  <V_ES_D6s.label>V-D6 Darjeeling</V_ES_D6s.label>
+  <V_ES_D6s.description>Vanya energy shield belt. Defender series. Darjeeling is the first mass production type of the second generation products. Protection capacity improved. V-D6 has a new power system and protection capacity improved.</V_ES_D6s.description>
+  <V_ES_D7As.label>V-D7A Maria</V_ES_D7As.label>
+  <V_ES_D7As.description>Vanya energy shield belt. Defender series. V-D7A is the mass production type of the second generation products. Maria immune spirit attack and protection capacity greatly improved.</V_ES_D7As.description>
+  <V_ES_D8Ss.label>V-D8S Solar Corona</V_ES_D8Ss.label>
+  <V_ES_D8Ss.description>Vanya energy shield belt. Defender series. Third Generation experimental type. V-D8 immune spirit attack. SolarCorona has unparalleled temperature protection and defense.</V_ES_D8Ss.description>
+  <V_ES_D9s.label>V-D9 Aurora</V_ES_D9s.label>
+  <V_ES_D9s.description>Vanya energy shield belt. Defender series. Third Generation experimental type. V-D9 immune spirit attack and has unparalleled energy recovery speed. Aurora has a super power system. It will be invincible if the user's ability is strong enough.</V_ES_D9s.description>
+  <V_ES_D3Ds.comps.2.versionInfo>V-D3H</V_ES_D3Ds.comps.2.versionInfo>
+  <V_ES_D4Cs.comps.2.versionInfo>V-D4C</V_ES_D4Cs.comps.2.versionInfo>
+  <V_ES_D5RMs.comps.2.versionInfo>V-D5F</V_ES_D5RMs.comps.2.versionInfo>
+  <V_ES_D5RMs.comps.2.alias>Red Moon plus</V_ES_D5RMs.comps.2.alias>
+  <V_ES_D11s.comps.2.versionInfo>V-D11</V_ES_D11s.comps.2.versionInfo>
+  <V_ES_D11s.comps.2.alias>Sailfish</V_ES_D11s.comps.2.alias>
+  <V_ES_D14s.comps.2.versionInfo>V-D14</V_ES_D14s.comps.2.versionInfo>
+  <V_ES_D14s.comps.2.alias>New Hope</V_ES_D14s.comps.2.alias>
+  <V_ES_D6s.comps.2.versionInfo>V-D6</V_ES_D6s.comps.2.versionInfo>
+  <V_ES_D6s.comps.2.alias>Darjeeling</V_ES_D6s.comps.2.alias>
+  <V_ES_D7As.comps.2.versionInfo>V-D7A</V_ES_D7As.comps.2.versionInfo>
+  <V_ES_D7As.comps.2.alias>Maria</V_ES_D7As.comps.2.alias>
+  <V_ES_D8Ss.comps.2.versionInfo>V-D8</V_ES_D8Ss.comps.2.versionInfo>
+  <V_ES_D8Ss.comps.2.alias>Solar Corona</V_ES_D8Ss.comps.2.alias>
+  <V_ES_D9s.comps.2.versionInfo>V-D9</V_ES_D9s.comps.2.versionInfo>
+  <V_ES_D9s.comps.2.alias>Aurora</V_ES_D9s.comps.2.alias>
+  <!-- 1.1 -->
+  <VanyaES_D3Ks.label>V-D3Kd shield belt</VanyaES_D3Ks.label>
+  <VanyaES_D3Ks.description>Vanya energy shield belt. Defender series. One-time shield. The shield will disappear when the energy is exhausted. V-D3K is a public improvement type. This one-time shield reduces costs. V-D3K is the guardian of the poor.</VanyaES_D3Ks.description>
+  <VanyaES_D4Fs.label>V-D4F shield belt</VanyaES_D4Fs.label>
+  <VanyaES_D4Fs.description>Vanya energy shield belt. Defender series. First generation of mass production improved type. V-D4F has a higher energy ceiling than V-D4C. V-D4F can easily handle a small-scale battle, so it is popular with travelers and guards.</VanyaES_D4Fs.description>
+  <VanyaES_D15s.label>V-D15 Blood Moon</VanyaES_D15s.label>
+  <VanyaES_D15s.description>Vanya energy shield belt. Defender series. V-D15 was developed based on the experience of V-D5 Red Moon and V-D6 Darjeeling. V-D15 is a replacement for Darjeeling and V-D7 Maria. Only elite troops will equip it.</VanyaES_D15s.description>
+  <VanyaES_D11Cs.label>V-D11Cd Sailfish D</VanyaES_D11Cs.label>
+  <VanyaES_D11Cs.description>Vanya energy shield belt. Defender series. One-time shield. The shield will disappear when the energy is exhausted. Swordfish is popular with soldiers because of better price-quality ratio.</VanyaES_D11Cs.description>
+  <VanyaES_D14s.label>V-D14 New Hope</VanyaES_D14s.label>
+  <VanyaES_D14s.description>Vanya energy shield belt. Defender series. NewHope is the civil mass production type of the second generation products. V-D14 is usually offered to workers.</VanyaES_D14s.description>
+  <VanyaES_D7Es.label>V-D7Ed Maria D</VanyaES_D7Es.label>
+  <VanyaES_D7Es.description>Vanya energy shield belt. Defender series. One-time shield. The shield will disappear when the energy is exhausted. Maria immune spirit attack and protection capacity greatly improved. V-D7 is one of the most popular products among frontline soldiers.</VanyaES_D7Es.description>
+  <VanyaES_D16s.label>V-D16 Darjeeling X</VanyaES_D16s.label>
+  <VanyaES_D16s.description>Vanya energy shield belt. Defender series. Darjeeling X is also known as Super Darjeeling. it was developed based on the experience of V-D9 Aurora. Super Darjeeling uses a simplified V-D9 power system. Protection capacity improved. Darjeeling X is an attempt to develop a shield for space.</VanyaES_D16s.description>
+  <VanyaES_D8Ss.label>V-D8S Solar Corona</VanyaES_D8Ss.label>
+  <VanyaES_D8Ss.description>Vanya energy shield belt. Defender series. Third Generation experimental type. V-D8 immune spirit attack. SolarCorona has unparalleled temperature protection and defense.</VanyaES_D8Ss.description>
+  <VanyaES_D9s.label>V-D9 Aurora</VanyaES_D9s.label>
+  <VanyaES_D9s.description>Vanya energy shield belt. Defender series. Third Generation experimental type. V-D9 immune spirit attack and has unparalleled energy recovery speed. Aurora has a super power system. It will be invincible if the user's ability is strong enough.</VanyaES_D9s.description>
+  <VanyaES_D3Ks.comps.2.versionInfo>V-D3K Disposable</VanyaES_D3Ks.comps.2.versionInfo>
+  <VanyaES_D4Fs.comps.2.versionInfo>V-D4F</VanyaES_D4Fs.comps.2.versionInfo>
+  <VanyaES_D15s.comps.2.versionInfo>V-D15</VanyaES_D15s.comps.2.versionInfo>
+  <VanyaES_D15s.comps.2.alias>Blood Moon</VanyaES_D15s.comps.2.alias>
+  <VanyaES_D11Cs.comps.2.versionInfo>V-D11C Disposable</VanyaES_D11Cs.comps.2.versionInfo>
+  <VanyaES_D11Cs.comps.2.alias>SailfishD</VanyaES_D11Cs.comps.2.alias>
+  <VanyaES_D14s.comps.2.versionInfo>V-D14</VanyaES_D14s.comps.2.versionInfo>
+  <VanyaES_D14s.comps.2.alias>New Hope</VanyaES_D14s.comps.2.alias>
+  <VanyaES_D16s.comps.2.versionInfo>V-D16</VanyaES_D16s.comps.2.versionInfo>
+  <VanyaES_D16s.comps.2.alias>DarjeelingX</VanyaES_D16s.comps.2.alias>
+  <VanyaES_D7Es.comps.2.versionInfo>V-D7E Disposable</VanyaES_D7Es.comps.2.versionInfo>
+  <VanyaES_D7Es.comps.2.alias>MariaD</VanyaES_D7Es.comps.2.alias>
+  <VanyaES_D8Ss.comps.2.versionInfo>V-D8</VanyaES_D8Ss.comps.2.versionInfo>
+  <VanyaES_D8Ss.comps.2.alias>Solar Corona</VanyaES_D8Ss.comps.2.alias>
+  <VanyaES_D9s.comps.2.versionInfo>V-D9</VanyaES_D9s.comps.2.versionInfo>
+  <VanyaES_D9s.comps.2.alias>Aurora</VanyaES_D9s.comps.2.alias>
+</LanguageData>

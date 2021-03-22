@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/TipSetDef[defName = "RoyaltyTips"]</xpath>
+      </li>
+      <!--Add defs-->
+      <!-- PawnKinds_Empire -->
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/PawnKindDef[@Name = "RoyalBase"]/apparelTags</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>/Defs/PawnKindDef[@Name = "RoyalBase"]/apparelTags</xpath>
+          <value>
+            <li>VanyaNoble</li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/PawnKindDef[@Name = "RoyalBase"]</xpath>
+          <value>
+            <apparelTags>
+              <li>VanyaNoble</li>
+            </apparelTags>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/PawnKindDef[defName = "Empire_Royal_Stellarch"]/apparelTags</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>/Defs/PawnKindDef[defName = "Empire_Royal_Stellarch"]/apparelTags</xpath>
+          <value>
+            <li>VanyaRoyal</li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/PawnKindDef[defName = "Empire_Royal_Stellarch"]</xpath>
+          <value>
+            <apparelTags>
+              <li>VanyaRoyal</li>
+            </apparelTags>
+          </value>
+        </nomatch>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
