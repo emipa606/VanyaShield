@@ -303,8 +303,6 @@
       <texPath>Vanya_ShieldBelt/ShieldBelt_VV</texPath>
     </graphicData>
     <equippedStatOffsets>
-      <PsychicEntropyMax>5</PsychicEntropyMax>
-      <PsychicEntropyRecoveryRate>0.5</PsychicEntropyRecoveryRate>
       <PsychicSensitivity>0.2</PsychicSensitivity>
     </equippedStatOffsets>
     <costList>
@@ -362,7 +360,6 @@
     <equippedStatOffsets>
       <MoveSpeed>1.00</MoveSpeed>
       <AimingDelayFactor>-0.2</AimingDelayFactor>
-      <PsychicEntropyMax>8</PsychicEntropyMax>
     </equippedStatOffsets>
     <costList>
       <Plasteel>50</Plasteel>

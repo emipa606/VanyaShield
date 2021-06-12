@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VanyaES_VE14s"]/equippedStatOffsets</xpath>
+    <value>
+      <PsychicEntropyMax>5</PsychicEntropyMax>
+      <PsychicEntropyRecoveryRate>0.5</PsychicEntropyRecoveryRate>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VanyaES_VExs"]/equippedStatOffsets</xpath>
+    <value>
+      <PsychicEntropyMax>8</PsychicEntropyMax>
+    </value>
+  </Operation>
+</Patch>
