@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="VBeltBase" Abstract="True">
+    <thingClass>VanyaMod.Vanya_ShieldBelt</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>5</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+      <texPath>Vanya_ShieldBelt/ShieldBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <Mass>2.4</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <SellPriceFactor>0.50</SellPriceFactor>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Biocodable" />
+    </comps>
+    <thingCategories>
+      <li>Vanya_Shield</li>
+    </thingCategories>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>BeltDefense</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="VBeltBase">
+    <defName>Vanya_ShieldBelt</defName>
+    <label>Vanya Shield Belt</label>
+    <description>A single-person energy shield device. It will attempt to stop any rapidly-moving projectile or energy attack that comes from a distance. It does nothing against melee attacks or shots from point-blank range. It also prevents firing past touch range.</description>
+    <statBases>
+      <EnergyShieldRechargeRate>0.13</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.1</EnergyShieldEnergyMax>
+      <WorkToMake>50000</WorkToMake>
+      <SellPriceFactor>0.70</SellPriceFactor>
+    </statBases>
+    <graphicData>
+      <color>(102,153,204)</color>
+    </graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisite>ShieldBelt</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Plasteel>50</Plasteel>
+      <Uranium>5</Uranium>
+    </costList>
+    <comps>
+      <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+        <!--int default:2400 护盾重启所需ticks-->
+        <startingTicksToReset>2400</startingTicksToReset>
+        <!--float default:0.2 护盾重启时的初始能量-->
+        <energyOnReset>0.2</energyOnReset>
+        <!--float default:0.033 护盾能量吸收伤害比例，这里是每1点伤害需要x的能量来吸收。-->
+        <energyLossPerDamage>0.033</energyLossPerDamage>
+        <!--bool default:true 能否吸收近战伤害-->
+        <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+        <!--float default:2 吸收近战伤害时的能量消耗倍率-->
+        <meleeAbsorbFactor>2</meleeAbsorbFactor>
+        <!--float default:1 吸收远程伤害时的能量消耗倍率-->
+        <rangedAbsorbFactor>1</rangedAbsorbFactor>
+        <!--吸收伤害时需要的能量计算公式，扣除的能量=伤害值*energyLossPerDamage*AbsorbFactor-->
+        <!--bool default false 是否闪避受到的攻击，闪避几率为当前着装者近战闪避几率。-->
+        <canDodge>false</canDodge>
+        <!--float default:0.5 增强闪避系数，如果上一项为true，装备会额外给与着装者其自身近战闪避与该系数之积的几率来闪避所有伤害。-->
+        <dodgeChanceFactor>0.5</dodgeChanceFactor>
+        <!--bool default:false 破盾烟雾，护盾被击破时是否触发烟雾弹，默认半径为3。可以在statbase里添加烟雾半径参数。-->
+        <breakWithSmoke>false</breakWithSmoke>
+        <!--bool default:false 是否具有强制激活的功能-->
+        <canForceActive>true</canForceActive>
+        <!--bool default:false 灭火泡沫，被点燃时是否会自动触发灭火器。-->
+        <fireFoamBurster>false</fireFoamBurster>
+        <!--string default:null 型号信息，会显示在物品名称和详情描述内。-->
+        <versionInfo>V-1</versionInfo>
+        <!--string default:null 别名，会显示在物品名称和描述详情，可以设置为空格，如果为空则会显示为未知。-->
+        <alias>Origin</alias>
+        <!--string default:Other/Vanya_ShieldBubble 护盾激活时渲染的气泡贴图路径-->
+        <bubbleTexPath>Other/Vanya_ShieldBubble</bubbleTexPath>
+        <!--color default:(1, 1, 1) 气泡的着色-->
+        <bubbleColor>(0.2, 0.9, 1)</bubbleColor>
+        <!--color default:(0.2, 0.2, 0.24) 充能条的着色-->
+        <tabID>5292001</tabID>
+        <!--以上参数如果与默认值相同，则可以整行删除（以隐藏接口）。-->
+      </li>
+    </comps>
+    <apparel>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+    </apparel>
+    <generateCommonality>0.2</generateCommonality>
+  </ThingDef>
+  <ThingDef ParentName="VBeltBase">
+    <defName>Vanya_ShieldBelt_MKII</defName>
+    <label>Vanya Shield Belt MKII</label>
+    <description>A single-person energy shield device. It will attempt to stop any rapidly-moving projectile or energy attack that comes from a distance. It does nothing against melee attacks or shots from point-blank range. It also prevents firing past touch range.</description>
+    <statBases>
+      <EnergyShieldRechargeRate>0.13</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.0</EnergyShieldEnergyMax>
+      <WorkToMake>20000</WorkToMake>
+      <SellPriceFactor>0.70</SellPriceFactor>
+      <SmokepopBeltRadius>4</SmokepopBeltRadius>
+    </statBases>
+    <graphicData>
+      <color>(166,77,121)</color>
+    </graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisite>ShieldBelt</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Vanya_ShieldBelt>1</Vanya_ShieldBelt>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Shell_Firefoam>3</Shell_Firefoam>
+      <Chemfuel>10</Chemfuel>
+    </costList>
+    <comps>
+      <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+        <energyLossPerDamage>0.03</energyLossPerDamage>
+        <canForceActive>true</canForceActive>
+        <breakWithSmoke>true</breakWithSmoke>
+        <fireFoamBurster>true</fireFoamBurster>
+        <versionInfo>V-1 MKII</versionInfo>
+        <alias>Variant</alias>
+        <bubbleTexPath>Other/Vanya_ShieldBubble</bubbleTexPath>
+        <bubbleColor>(0.2, 0.9, 1)</bubbleColor>
+        <tabID>5292001</tabID>
+      </li>
+    </comps>
+    <apparel>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+    </apparel>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0.05</generateCommonality>
+  </ThingDef>
+</Defs>

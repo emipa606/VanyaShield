@@ -6,9 +6,19 @@ Update of Vaniat, BOXrsxx, duduluu, RicoFox233, lolidrops mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1532531127
 
 - Fixed an error in the translation-files
+- The two belts with Royalty specific stats will now only add these stats if Royalty is active
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
+
+[table]
+    [tr]
+        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
+[/td]
+        [td]https://github.com/emipa606/VanyaShield]![Image](https://i.imgur.com/kTkpTOE.png)
+[/td]
+    [/tr]
+[/table]
 	
 ![Image](https://i.imgur.com/NOW7jU1.png)
 
@@ -17,7 +27,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1532531127
 # Introduction
 
 
-**Vanya's shield belts**
+**Vanya&apos;s shield belts**
 
 A single-person energy shield device. It will attempt to stop any rapidly-moving projectile or energy attack that comes from a distance. It does nothing against melee attacks or shots from point-blank range. It also prevents firing past touch range.
 
@@ -36,8 +46,8 @@ Vanya shield belts mass production and enhanced vanilla factions.Vanya energy sh
 
 1.1.1027
 · New shields.
-· Shield isn't affected by extinguisher damage.
-· Shield doesn't break immediately due to EMP damage.
+· Shield isn&apos;t affected by extinguisher damage.
+· Shield doesn&apos;t break immediately due to EMP damage.
 · Some shields disappear when energy is exhausted. 
 · Shields are used by the Empire, which makes them stronger and more difficult to deal with. (DLC)
 

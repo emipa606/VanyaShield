@@ -46,7 +46,7 @@ namespace VanyaMod
         }
 
         // Token: 0x06000018 RID: 24 RVA: 0x000026CC File Offset: 0x000008CC
-        public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth)
+        public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth, GizmoRenderParms parms)
         {
             var overRect = new Rect(topLeft.x, topLeft.y, GetWidth(maxWidth), 75f);
             Find.WindowStack.ImmediateWindow(tabID, overRect, WindowLayer.GameUI, delegate

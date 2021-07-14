@@ -10,7 +10,7 @@ namespace VanyaMod
         private bool canFreshNow = true;
 
         // Token: 0x04000001 RID: 1
-        private CompProperties_VanyaUniversalShieldBelt ExactProps = new();
+        private CompProperties_VanyaUniversalShieldBelt ExactProps = new CompProperties_VanyaUniversalShieldBelt();
 
         // Token: 0x17000001 RID: 1
         // (get) Token: 0x06000001 RID: 1 RVA: 0x00002050 File Offset: 0x00000250
@@ -30,7 +30,7 @@ namespace VanyaMod
 
         // Token: 0x17000005 RID: 5
         // (get) Token: 0x06000005 RID: 5 RVA: 0x000020A0 File Offset: 0x000002A0
-        private string EnergyOnReset => ((int) (ExactProps.energyOnReset * 100f)) + "%";
+        private string EnergyOnReset => (int) (ExactProps.energyOnReset * 100f) + "%";
 
         // Token: 0x17000006 RID: 6
         // (get) Token: 0x06000006 RID: 6 RVA: 0x000020D4 File Offset: 0x000002D4
@@ -42,11 +42,11 @@ namespace VanyaMod
 
         // Token: 0x17000008 RID: 8
         // (get) Token: 0x06000008 RID: 8 RVA: 0x00002118 File Offset: 0x00000318
-        private string MeleeCostFactor => ((int) (ExactProps.meleeAbsorbFactor * 100f)) + "%";
+        private string MeleeCostFactor => (int) (ExactProps.meleeAbsorbFactor * 100f) + "%";
 
         // Token: 0x17000009 RID: 9
         // (get) Token: 0x06000009 RID: 9 RVA: 0x0000214C File Offset: 0x0000034C
-        private string RangedCostFactor => ((int) (ExactProps.rangedAbsorbFactor * 100f)) + "%";
+        private string RangedCostFactor => (int) (ExactProps.rangedAbsorbFactor * 100f) + "%";
 
         // Token: 0x1700000A RID: 10
         // (get) Token: 0x0600000A RID: 10 RVA: 0x0000217D File Offset: 0x0000037D

@@ -31,7 +31,7 @@ namespace VanyaMod
         private float energy;
 
         // Token: 0x04000024 RID: 36
-        private CompProperties_VanyaUniversalShieldBelt ExactComp = new();
+        private CompProperties_VanyaUniversalShieldBelt ExactComp = new CompProperties_VanyaUniversalShieldBelt();
 
         // Token: 0x0400001E RID: 30
         private Vector3 impactAngleVect;
@@ -364,11 +364,11 @@ namespace VanyaMod
                 impactAngleVect = Vector3Utility.HorizontalVectorFromAngle(dinfo.Angle);
                 var loc = Wearer.TrueCenter() + (impactAngleVect.RotatedBy(180f) * 0.5f);
                 var num = Mathf.Min(10f, 2f + (dinfo.Amount / 10f));
-                MoteMaker.MakeStaticMote(loc, Wearer.Map, ThingDefOf.Mote_ExplosionFlash, num);
+                FleckMaker.Static(loc, Wearer.Map, FleckDefOf.ExplosionFlash, num);
                 var num2 = (int) num;
                 for (var i = 0; i < num2; i++)
                 {
-                    MoteMaker.ThrowDustPuff(loc, Wearer.Map, Rand.Range(0.8f, 1.2f));
+                    FleckMaker.ThrowDustPuff(loc, Wearer.Map, Rand.Range(0.8f, 1.2f));
                 }
             }
 
@@ -382,10 +382,10 @@ namespace VanyaMod
             if (Wearer.Map != null)
             {
                 SoundDefOf.EnergyShield_Broken.PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
-                MoteMaker.MakeStaticMote(Wearer.TrueCenter(), Wearer.Map, ThingDefOf.Mote_ExplosionFlash, 12f);
+                FleckMaker.Static(Wearer.TrueCenter(), Wearer.Map, FleckDefOf.ExplosionFlash, 12f);
                 for (var i = 0; i < 6; i++)
                 {
-                    MoteMaker.ThrowDustPuff(
+                    FleckMaker.ThrowDustPuff(
                         Wearer.TrueCenter() + (Vector3Utility.HorizontalVectorFromAngle(Rand.Range(0, 360)) *
                                                Rand.Range(0.3f, 0.6f)), Wearer.Map, Rand.Range(0.8f, 1.2f));
                 }
@@ -410,7 +410,7 @@ namespace VanyaMod
             if (Wearer.Spawned)
             {
                 SoundDefOf.EnergyShield_Reset.PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
-                MoteMaker.ThrowLightningGlow(Wearer.TrueCenter(), Wearer.Map, 3f);
+                FleckMaker.ThrowLightningGlow(Wearer.TrueCenter(), Wearer.Map, 3f);
             }
 
             ticksToReset = -1;
