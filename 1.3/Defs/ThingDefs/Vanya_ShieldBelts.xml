@@ -1,34 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef Name="VBeltBase" Abstract="True">
+  <ThingDef Name="VBeltBase" Abstract="True" ParentName="ApparelBase">
     <thingClass>VanyaMod.Vanya_ShieldBelt</thingClass>
-    <category>Item</category>
-    <selectable>True</selectable>
-    <pathCost>5</pathCost>
-    <useHitPoints>True</useHitPoints>
     <techLevel>Spacer</techLevel>
     <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
       <texPath>Vanya_ShieldBelt/ShieldBelt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
     <statBases>
       <Mass>2.4</Mass>
-      <MaxHitPoints>100</MaxHitPoints>
       <Flammability>0</Flammability>
       <DeteriorationRate>1</DeteriorationRate>
       <SellPriceFactor>0.50</SellPriceFactor>
       <EquipDelay>2</EquipDelay>
     </statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Normal</tickerType>
     <comps>
-      <li Class="CompProperties_Forbiddable" />
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
       <li Class="CompProperties_Biocodable" />
     </comps>
     <thingCategories>
