@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Vanya Shield (Continued)</name>
   <packageId>Mlie.VanyaShield</packageId>
@@ -12,28 +12,32 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Vaniat, BOXrsxx, duduluu, RicoFox233, lolidrops mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1532531127
 
 - Fixed an error in the translation-files
 - The two belts with Royalty specific stats will now only add these stats if Royalty is active
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/VanyaShield][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 [b]Note! The clothes and hairs in the preview picture are display items.[/b]
 
 [h1]Introduction[/h1]
 
-[b]Vanya&apos;s shield belts[/b]
+[b]Vanya's shield belts[/b]
 
 A single-person energy shield device. It will attempt to stop any rapidly-moving projectile or energy attack that comes from a distance. It does nothing against melee attacks or shots from point-blank range. It also prevents firing past touch range.
 
@@ -51,15 +55,15 @@ Vanya shield belts mass production and enhanced vanilla factions.Vanya energy sh
 
 1.1.1027
 · New shields.
-· Shield isn&apos;t affected by extinguisher damage.
-· Shield doesn&apos;t break immediately due to EMP damage.
+· Shield isn't affected by extinguisher damage.
+· Shield doesn't break immediately due to EMP damage.
 · Some shields disappear when energy is exhausted. 
 · Shields are used by the Empire, which makes them stronger and more difficult to deal with. (DLC)
 
 [b]Thanks [/b]
 xyq565861, RicoFox233, lolidrop
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
