@@ -1,5 +1,8 @@
 # Changelog for VanyaShield
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.0.4.0 - Inherited the baseapparel class instead for better compatibility, and to fix the color issue
 
 

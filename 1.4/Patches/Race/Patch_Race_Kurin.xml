@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/Garam_RaceAddon.RaceAddonThingDef[defName="Kurin"]</xpath>
+      </li>
+      <!--Add defs-->
+      <!-- RaceAddonThingDef -->
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/Garam_RaceAddon.RaceAddonThingDef[defName = "Kurin"]/raceAddonSettings/apparelRestrictionSetting/allAllow_Exceptions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>/Defs/Garam_RaceAddon.RaceAddonThingDef[defName = "Kurin"]/raceAddonSettings/apparelRestrictionSetting/allAllow_Exceptions</xpath>
+          <value>
+            <li>Vanya_ShieldBelt</li>
+            <li>Vanya_ShieldBelt_MKII</li>
+            <li>VanyaES_D3Ks</li>
+            <li>VanyaES_D4Fs</li>
+            <li>VanyaES_D15s</li>
+            <li>VanyaES_D11Cs</li>
+            <li>VanyaES_D14s</li>
+            <li>VanyaES_D7Es</li>
+            <li>VanyaES_D16s</li>
+            <li>VanyaES_D8Ss</li>
+            <li>VanyaES_D9s</li>
+            <li>VanyaES_R017s</li>
+            <li>VanyaES_R3is</li>
+            <li>VanyaES_R4ds</li>
+            <li>VanyaES_R8hs</li>
+            <li>VanyaES_R9ds</li>
+            <li>VanyaES_R10s</li>
+            <li>VanyaES_VC6s</li>
+            <li>VanyaES_VG8ds</li>
+            <li>VanyaES_VN3rs</li>
+            <li>VanyaES_VN22ms</li>
+            <li>VanyaES_VN5s</li>
+            <li>VanyaES_VE14s</li>
+            <li>VanyaES_VExs</li>
+            <li>VanyaES_VE12s</li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/PawnKindDef[defName = "Kurin"]/raceAddonSettings/apparelRestrictionSetting</xpath>
+          <value>
+            <allAllow_Exceptions>
+              <li>Vanya_ShieldBelt</li>
+              <li>Vanya_ShieldBelt_MKII</li>
+              <li>VanyaES_D3Ks</li>
+              <li>VanyaES_D4Fs</li>
+              <li>VanyaES_D15s</li>
+              <li>VanyaES_D11Cs</li>
+              <li>VanyaES_D14s</li>
+              <li>VanyaES_D7Es</li>
+              <li>VanyaES_D16s</li>
+              <li>VanyaES_D8Ss</li>
+              <li>VanyaES_D9s</li>
+              <li>VanyaES_R017s</li>
+              <li>VanyaES_R3is</li>
+              <li>VanyaES_R4ds</li>
+              <li>VanyaES_R8hs</li>
+              <li>VanyaES_R9ds</li>
+              <li>VanyaES_R10s</li>
+              <li>VanyaES_VC6s</li>
+              <li>VanyaES_VG8ds</li>
+              <li>VanyaES_VN3rs</li>
+              <li>VanyaES_VN22ms</li>
+              <li>VanyaES_VN5s</li>
+              <li>VanyaES_VE14s</li>
+              <li>VanyaES_VExs</li>
+              <li>VanyaES_VE12s</li>
+            </allAllow_Exceptions>
+          </value>
+        </nomatch>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

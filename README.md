@@ -1,6 +1,6 @@
 # VanyaShield
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Vaniat, BOXrsxx, duduluu, RicoFox233, lolidrops mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1532531127
@@ -8,26 +8,17 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1532531127
 - Fixed an error in the translation-files
 - The two belts with Royalty specific stats will now only add these stats if Royalty is active
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-    [tr]
-        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-        [td]https://github.com/emipa606/VanyaShield]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-    [/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 **Note! The clothes and hairs in the preview picture are display items.**
 
 # Introduction
 
 
-**Vanya&apos;s shield belts**
+**Vanya's shield belts**
 
 A single-person energy shield device. It will attempt to stop any rapidly-moving projectile or energy attack that comes from a distance. It does nothing against melee attacks or shots from point-blank range. It also prevents firing past touch range.
 
@@ -46,15 +37,15 @@ Vanya shield belts mass production and enhanced vanilla factions.Vanya energy sh
 
 1.1.1027
 · New shields.
-· Shield isn&apos;t affected by extinguisher damage.
-· Shield doesn&apos;t break immediately due to EMP damage.
+· Shield isn't affected by extinguisher damage.
+· Shield doesn't break immediately due to EMP damage.
 · Some shields disappear when energy is exhausted. 
 · Shields are used by the Empire, which makes them stronger and more difficult to deal with. (DLC)
 
 **Thanks **
 xyq565861, RicoFox233, lolidrop
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -64,6 +55,7 @@ xyq565861, RicoFox233, lolidrop
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
