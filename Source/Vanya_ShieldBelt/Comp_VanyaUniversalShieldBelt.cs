@@ -52,7 +52,7 @@ public class Comp_VanyaUniversalShieldBelt : ThingComp
     {
         get
         {
-            if (parent is Apparel { Wearer: { } } apparel)
+            if (parent is Apparel { Wearer: not null } apparel)
             {
                 return (apparel.Wearer.GetStatValue(StatDefOf.MeleeDodgeChance) * DodgeChanceFactor).ToStringPercent();
             }
@@ -106,7 +106,7 @@ public class Comp_VanyaUniversalShieldBelt : ThingComp
         text += "VSRangedCostFactor".Translate(RangedCostFactor) + "\n";
         if (CanDodge)
         {
-            if (parent is Apparel { Wearer: { } } apparel)
+            if (parent is Apparel { Wearer: not null } apparel)
             {
                 text += "VSDodgeChanceWorn".Translate(DodgeChanceExact,
                     apparel.Wearer.GetStatValue(StatDefOf.MeleeDodgeChance).ToStringPercent(),

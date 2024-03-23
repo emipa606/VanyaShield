@@ -14,7 +14,10 @@ public class Vanya_ShieldBelt : Apparel
 
     private readonly float ApparelScorePerEnergyMax = 0.25f;
 
+    private readonly SoundDef EnergyShield_Broken = SoundDef.Named("EnergyShield_Broken");
+
     private readonly int KeepDisplayingTicks = 600;
+    private readonly StatDef PackRadius = StatDef.Named("PackRadius");
 
     private Material bubbleMatInit;
 
@@ -79,12 +82,7 @@ public class Vanya_ShieldBelt : Apparel
                 return 1.5f;
             }
 
-            if (ExactComp.dodgeChanceFactor < 0f)
-            {
-                return 0f;
-            }
-
-            return ExactComp.dodgeChanceFactor;
+            return ExactComp.dodgeChanceFactor < 0f ? 0f : ExactComp.dodgeChanceFactor;
         }
     }
 
@@ -100,18 +98,7 @@ public class Vanya_ShieldBelt : Apparel
 
     public float Energy => energy;
 
-    private ShieldState ShieldState
-    {
-        get
-        {
-            if (ticksToReset > 0)
-            {
-                return ShieldState.Resetting;
-            }
-
-            return ShieldState.Active;
-        }
-    }
+    private ShieldState ShieldState => ticksToReset > 0 ? ShieldState.Resetting : ShieldState.Active;
 
     private bool ShouldDisplay
     {
@@ -324,7 +311,7 @@ public class Vanya_ShieldBelt : Apparel
     {
         if (Wearer.Map != null)
         {
-            SoundDefOf.EnergyShield_Broken.PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
+            EnergyShield_Broken.PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
             FleckMaker.Static(Wearer.TrueCenter(), Wearer.Map, FleckDefOf.ExplosionFlash, 12f);
             for (var i = 0; i < 6; i++)
             {
@@ -388,7 +375,7 @@ public class Vanya_ShieldBelt : Apparel
     {
         var position = Wearer.Position;
         var map = Wearer.Map;
-        var statValue = this.GetStatValue(StatDefOf.SmokepopBeltRadius);
+        var statValue = this.GetStatValue(PackRadius);
         var smoke = DamageDefOf.Smoke;
         GenExplosion.DoExplosion(position, map, statValue, smoke, null, -1, -1f, null, null, null, null, null, 0f, 1,
             GasType.BlindSmoke);

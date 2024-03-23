@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="VBeltBase">
+    <defName>VanyaES_D3Ks</defName>
+    <label>V-D3Kd shield belt</label>
+    <description>Vanya energy shield belt. Defender series. One-time shield. The shield will disappear when the energy is exhausted. V-D3K is a public improvement type. This one-time shield reduces costs. V-D3K is the guardian of the poor.</description>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Mass>1.8</Mass>
+      <EnergyShieldRechargeRate>0.13</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.1</EnergyShieldEnergyMax>
+      <DeteriorationRate>1</DeteriorationRate>
+      <MaxHitPoints>80</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <color>(153,204,204)</color>
+    </graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisite>ShieldBelt</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Plasteel>20</Plasteel>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <tags>
+        <li>IndustrialAdvanced</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>BeltDefensePop</li>
+        <li>Neolithic</li>
+        <li>FedSuit</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+        <versionInfo>V-D3K Disposable</versionInfo>
+        <energyLossPerDamage>0.05</energyLossPerDamage>
+        <bubbleColor>(0.2, 0.9, 1)</bubbleColor>
+        <tabID>5292001</tabID>
+        <destroyOnBreak>true</destroyOnBreak>
+      </li>
+    </comps>
+    <generateCommonality>0.4</generateCommonality>
+  </ThingDef>
+  <ThingDef ParentName="VBeltBase">
+    <defName>VanyaES_D4Fs</defName>
+    <label>V-D4F shield belt</label>
+    <description>Vanya energy shield belt. Defender series. First generation of mass production improved type. V-D4F has a higher energy ceiling than V-D4C. V-D4F can easily handle a small-scale battle, so it is popular with travelers and guards.</description>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Mass>3.4</Mass>
+      <EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.35</EnergyShieldEnergyMax>
+      <DeteriorationRate>1</DeteriorationRate>
+      <MaxHitPoints>100</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <color>(178,204,230)</color>
+    </graphicData>
+    <costList>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Plasteel>50</Plasteel>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <tags>
+        <li>IndustrialAdvanced</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>BeltDefensePop</li>
+        <li>Neolithic</li>
+        <li>BeltDefense</li>
+        <li>FedSuit</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+        <versionInfo>V-D4F</versionInfo>
+        <bubbleColor>(0.2, 0.9, 1)</bubbleColor>
+        <tabID>5292001</tabID>
+      </li>
+    </comps>
+    <generateCommonality>0.3</generateCommonality>
+  </ThingDef>
+  <ThingDef ParentName="VBeltBase">
+    <defName>VanyaES_D15s</defName>
+    <label>V-D15 Blood Moon</label>
+    <description>Vanya energy shield belt. Defender series. V-D15 was developed based on the experience of V-D5 Red Moon and V-D6 Darjeeling. V-D15 is a replacement for Darjeeling and V-D7 Maria. Only elite troops will equip it.</description>
+    <tickerType>Normal</tickerType>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MarketValue>2250</MarketValue>
+      <Mass>3.8</Mass>
+      <EnergyShieldRechargeRate>0.30</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.25</EnergyShieldEnergyMax>
+      <DeteriorationRate>1.0</DeteriorationRate>
+      <MaxHitPoints>240</MaxHitPoints>
+      <Insulation_Cold>12</Insulation_Cold>
+      <Insulation_Heat>12</Insulation_Heat>
+      <SellPriceFactor>0.75</SellPriceFactor>
+    </statBases>
+    <graphicData>
+      <color>(204,51,102)</color>
+    </graphicData>
+    <equippedStatOffsets>
+      <Flammability>-0.5</Flammability>
+      <AimingDelayFactor>-0.1</AimingDelayFactor>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <Plasteel>60</Plasteel>
+      <Uranium>20</Uranium>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>BeltDefensePop</li>
+        <li>SpacerMilitary</li>
+        <li>OCArmor</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+        <versionInfo>V-D15</versionInfo>
+        <alias>Blood Moon</alias>
+        <energyLossPerDamage>0.02</energyLossPerDamage>
+        <fireFoamBurster>true</fireFoamBurster>
+        <bubbleColor>(0.2, 0.9, 1)</bubbleColor>
+        <tabID>5292001</tabID>
+      </li>
+    </comps>
+    <generateCommonality>0.25</generateCommonality>
+  </ThingDef>
+  <ThingDef ParentName="VBeltBase">
+    <defName>VanyaES_D11Cs</defName>
+    <label>V-D11Cd Sailfish D</label>
+    <description>Vanya energy shield belt. Defender series. One-time shield. The shield will disappear when the energy is exhausted. Swordfish is popular with soldiers because of better price-quality ratio.</description>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Mass>1.6</Mass>
+      <EnergyShieldRechargeRate>0.30</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.2</EnergyShieldEnergyMax>
+      <DeteriorationRate>1.0</DeteriorationRate>
+      <MaxHitPoints>100</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <color>(80,80,80)</color>
+    </graphicData>
+    <equippedStatOffsets>
+      <MoveSpeed>0.35</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Plasteel>30</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+        <li>Neolithic</li>
+        <li>BeltDefensePop</li>
+        <li>FedSuit</li>
+        <li>OCArmor</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+        <canForceActive>true</canForceActive>
+        <versionInfo>V-D11C Disposable</versionInfo>
+        <alias>SailfishD</alias>
+        <bubbleColor>(0.2, 0.9, 1)</bubbleColor>
+        <tabID>5292001</tabID>
+        <destroyOnBreak>true</destroyOnBreak>
+      </li>
+    </comps>
+    <generateCommonality>0.36</generateCommonality>
+  </ThingDef>
+  <ThingDef ParentName="VBeltBase">
+    <defName>VanyaES_D14s</defName>
+    <label>V-D14 New Hope</label>
+    <description>Vanya energy shield belt. Defender series. NewHope is the civil mass production type of the second generation products. V-D14 is usually offered to workers.</description>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Mass>2.7</Mass>
+      <EnergyShieldRechargeRate>0.28</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.05</EnergyShieldEnergyMax>
+      <DeteriorationRate>1.0</DeteriorationRate>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>8</Insulation_Heat>
+    </statBases>
+    <graphicData>
+      <color>(102,178,102)</color>
+    </graphicData>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+      <PlantWorkSpeed>0.15</PlantWorkSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <Plasteel>35</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Uranium>3</Uranium>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <tags>
+        <li>IndustrialAdvanced</li>
+        <li>BeltDefensePop</li>
+        <li>Neolithic</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+        <versionInfo>V-D14</versionInfo>
+        <alias>New Hope</alias>
+        <energyLossPerDamage>0.05</energyLossPerDamage>
+        <canForceActive>true</canForceActive>
+        <bubbleColor>(0.2, 0.9, 1)</bubbleColor>
+        <tabID>5292001</tabID>
+      </li>
+    </comps>
+    <generateCommonality>0.18</generateCommonality>
+  </ThingDef>
+  <ThingDef ParentName="VBeltBase">
+    <defName>VanyaES_D7Es</defName>
+    <label>V-D7Ed Maria D</label>
+    <description>Vanya energy shield belt. Defender series. One-time shield. The shield will disappear when the energy is exhausted. Maria immune spirit attack and protection capacity greatly improved. V-D7 is one of the most popular products among frontline soldiers.</description>
+    <tickerType>Normal</tickerType>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <Mass>3.5</Mass>
+      <EnergyShieldRechargeRate>0.04</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>5.5</EnergyShieldEnergyMax>
+      <DeteriorationRate>0.8</DeteriorationRate>
+      <MaxHitPoints>180</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <color>(230,178,230)</color>
+    </graphicData>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+      <PsychicSensitivity>-1</PsychicSensitivity>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <Plasteel>50</Plasteel>
+      <Jade>100</Jade>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>BeltDefensePop</li>
+        <li>OCArmor</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+        <versionInfo>V-D7E Disposable</versionInfo>
+        <alias>MariaD</alias>
+        <energyOnReset>3.5</energyOnReset>
+        <energyLossPerDamage>0.02</energyLossPerDamage>
+        <bubbleColor>(0.2, 0.9, 1)</bubbleColor>
+        <tabID>5292001</tabID>
+        <destroyOnBreak>true</destroyOnBreak>
+      </li>
+    </comps>
+    <generateCommonality>0.3</generateCommonality>
+  </ThingDef>
+  <ThingDef ParentName="VBeltBase">
+    <defName>VanyaES_D16s</defName>
+    <label>V-D16 Darjeeling X</label>
+    <description>Vanya energy shield belt. Defender series. Darjeeling X is also known as Super Darjeeling. it was developed based on the experience of V-D9 Aurora. Super Darjeeling uses a simplified V-D9 power system. Protection capacity improved. Darjeeling X is an attempt to develop a shield for space.</description>
+    <tickerType>Normal</tickerType>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MarketValue>3200</MarketValue>
+      <Mass>2.2</Mass>
+      <EnergyShieldRechargeRate>0.34</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>2.05</EnergyShieldEnergyMax>
+      <DeteriorationRate>0.8</DeteriorationRate>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Insulation_Cold>25</Insulation_Cold>
+      <Insulation_Heat>25</Insulation_Heat>
+      <SellPriceFactor>0.75</SellPriceFactor>
+    </statBases>
+    <graphicData>
+      <color>(230,102,102)</color>
+    </graphicData>
+    <equippedStatOffsets>
+      <MoveSpeed>0.8</MoveSpeed>
+      <Flammability>-0.5</Flammability>
+      <PsychicSensitivity>-1</PsychicSensitivity>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>20</ComponentIndustrial>
+      <Plasteel>65</Plasteel>
+      <Jade>75</Jade>
+      <Uranium>20</Uranium>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>BeltDefensePop</li>
+        <li>SpacerMilitary</li>
+        <li>VanyaBoss</li>
+        <li>Spacer</li>
+        <li>EVA</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+        <versionInfo>V-D16</versionInfo>
+        <alias>DarjeelingX</alias>
+        <energyLossPerDamage>0.02</energyLossPerDamage>
+        <bubbleColor>(0.2, 0.9, 1)</bubbleColor>
+        <tabID>5292001</tabID>
+      </li>
+    </comps>
+    <generateCommonality>0.12</generateCommonality>
+  </ThingDef>
+  <ThingDef ParentName="VBeltBase">
+    <defName>VanyaES_D8Ss</defName>
+    <label>V-D8S Solar Corona</label>
+    <description>Vanya energy shield belt. Defender series. Third Generation experimental type. V-D8 immune spirit attack. SolarCorona has unparalleled temperature protection and defense.</description>
+    <tickerType>Normal</tickerType>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MarketValue>30000</MarketValue>
+      <Mass>8.0</Mass>
+      <EnergyShieldRechargeRate>0.04</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>6.0</EnergyShieldEnergyMax>
+      <DeteriorationRate>0</DeteriorationRate>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Insulation_Cold>270</Insulation_Cold>
+      <Insulation_Heat>1980</Insulation_Heat>
+      <SellPriceFactor>1.00</SellPriceFactor>
+    </statBases>
+    <graphicData>
+      <color>(230,204,51)</color>
+    </graphicData>
+    <equippedStatOffsets>
+      <MoveSpeed>-1.00</MoveSpeed>
+      <Flammability>-1</Flammability>
+      <ToxicResistance>1</ToxicResistance>
+      <PsychicSensitivity>-2</PsychicSensitivity>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>100</ComponentIndustrial>
+      <Plasteel>600</Plasteel>
+      <Jade>200</Jade>
+      <Uranium>300</Uranium>
+      <ComponentSpacer>50</ComponentSpacer>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <tags>
+        <li>VanyaBoss</li>
+        <li>VanyaRoyal</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+        <versionInfo>V-D8</versionInfo>
+        <alias>Solar Corona</alias>
+        <startingTicksToReset>7200</startingTicksToReset>
+        <energyOnReset>2.0</energyOnReset>
+        <energyLossPerDamage>0.012</energyLossPerDamage>
+        <bubbleTexPath>Other/Vanya_ShieldBubble_VD8s</bubbleTexPath>
+        <tabID>5292001</tabID>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1.5</glowRadius>
+        <glowColor>(255,255,0,0)</glowColor>
+      </li>
+    </comps>
+    <generateCommonality>0.03</generateCommonality>
+  </ThingDef>
+  <ThingDef ParentName="VBeltBase">
+    <defName>VanyaES_D9s</defName>
+    <label>V-D9 Aurora</label>
+    <description>Vanya energy shield belt. Defender series. Third Generation experimental type. V-D9 immune spirit attack and has unparalleled energy recovery speed. Aurora has a super power system. It will be invincible if the user's ability is strong enough.</description>
+    <tickerType>Normal</tickerType>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MarketValue>9000</MarketValue>
+      <Mass>2.6</Mass>
+      <EnergyShieldRechargeRate>0.48</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>2.8</EnergyShieldEnergyMax>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Insulation_Cold>108</Insulation_Cold>
+      <Insulation_Heat>70</Insulation_Heat>
+      <SellPriceFactor>1.00</SellPriceFactor>
+    </statBases>
+    <graphicData>
+      <color>(51,204,230)</color>
+    </graphicData>
+    <equippedStatOffsets>
+      <MoveSpeed>0.75</MoveSpeed>
+      <Flammability>-1</Flammability>
+      <ToxicResistance>0.25</ToxicResistance>
+      <PsychicSensitivity>-1.4</PsychicSensitivity>
+      <AimingDelayFactor>-0.1</AimingDelayFactor>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>39</ComponentIndustrial>
+      <Plasteel>75</Plasteel>
+      <Jade>75</Jade>
+      <Uranium>35</Uranium>
+      <ComponentSpacer>15</ComponentSpacer>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <tags>
+        <li>VanyaBoss</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+        <versionInfo>V-D9</versionInfo>
+        <alias>Aurora</alias>
+        <startingTicksToReset>7200</startingTicksToReset>
+        <energyOnReset>0.5</energyOnReset>
+        <energyLossPerDamage>0.015</energyLossPerDamage>
+        <bubbleTexPath>Other/Vanya_ShieldBubble_VD9s</bubbleTexPath>
+        <tabID>5292001</tabID>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1.5</glowRadius>
+        <glowColor>(51,204,230,0)</glowColor>
+      </li>
+    </comps>
+    <generateCommonality>0.09</generateCommonality>
+  </ThingDef>
+</Defs>
