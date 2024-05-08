@@ -1,16 +1,14 @@
-﻿using Verse;
+﻿using System.Reflection;
 using HarmonyLib;
-using System.Reflection;
+using Verse;
 
-namespace Vanya_ShieldBelt
+namespace Vanya_ShieldBelt;
+
+[StaticConstructorOnStartup]
+public class PatchMain
 {
-    [StaticConstructorOnStartup]
-    public class PatchMain
+    static PatchMain()
     {
-        static PatchMain()
-        {
-            Harmony instance = new Harmony("Vanya_ShieldBelt");
-            instance.PatchAll(Assembly.GetExecutingAssembly());
-        }
+        new Harmony("Vanya_ShieldBelt").PatchAll(Assembly.GetExecutingAssembly());
     }
 }
