@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 4254868757
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 88a60051e4c4723bbea5e906bfad2c9a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 88a60051e4c4723bbea5e906bfad2c9a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.VanyaShield/Textures/Vanya_ShieldBelt/ShieldBelt.png
+- Assets/Data/Mlie.VanyaShield/Textures/Other/Vanya_ShieldBubble_sp4.png
+- Assets/Data/Mlie.VanyaShield/Textures/Other/Vanya_ShieldBubble_sp3.png
+- Assets/Data/Mlie.VanyaShield/Textures/Other/Vanya_ShieldBubble_VVE12s.png
+- Assets/Data/Mlie.VanyaShield/Textures/Vanya_ShieldBelt/ShieldBelt_VV.png
+- Assets/Data/Mlie.VanyaShield/Textures/Other/Vanya_ShieldBubble_V.png
+- Assets/Data/Mlie.VanyaShield/Textures/Other/Vanya_ShieldBubble_VD9s.png
+- Assets/Data/Mlie.VanyaShield/Textures/Other/Vanya_ShieldBubble_VD8s.png
+- Assets/Data/Mlie.VanyaShield/Textures/Other/Vanya_ShieldBubble_old.png
+- Assets/Data/Mlie.VanyaShield/Textures/Other/Vanya_ShieldBubble_VR0s.png
+- Assets/Data/Mlie.VanyaShield/Textures/Other/Vanya_ShieldBubble.png
+- Assets/Data/Mlie.VanyaShield/Textures/Other/Vanya_ShieldBubble_VVExs.png
+- Assets/Data/Mlie.VanyaShield/Textures/Vanya_ShieldBelt/ShieldBelt_VR.png
+Dependencies: []

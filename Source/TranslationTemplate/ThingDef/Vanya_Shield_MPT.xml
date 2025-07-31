@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: V-D11Cd Sailfish D -->
+  <VanyaES_D11Cs.label>V-D11Cd Sailfish D</VanyaES_D11Cs.label>
+  <!-- EN: Vanya energy shield belt. Defender series. One-time shield. The shield will disappear when the energy is exhausted. Swordfish is popular with soldiers because of better price-quality ratio. -->
+  <VanyaES_D11Cs.description>Vanya energy shield belt. Defender series. One-time shield. The shield will disappear when the energy is exhausted. Swordfish is popular with soldiers because of better price-quality ratio.</VanyaES_D11Cs.description>
+  <!-- EN: V-D11C Disposable -->
+  <VanyaES_D11Cs.comps.Comp_VanyaUniversalShieldBelt.versionInfo>V-D11C Disposable</VanyaES_D11Cs.comps.Comp_VanyaUniversalShieldBelt.versionInfo>
+  <!-- EN: V-D14 New Hope -->
+  <VanyaES_D14s.label>V-D14 New Hope</VanyaES_D14s.label>
+  <!-- EN: Vanya energy shield belt. Defender series. NewHope is the civil mass production type of the second generation products. V-D14 is usually offered to workers. -->
+  <VanyaES_D14s.description>Vanya energy shield belt. Defender series. NewHope is the civil mass production type of the second generation products. V-D14 is usually offered to workers.</VanyaES_D14s.description>
+  <!-- EN: New Hope -->
+  <VanyaES_D14s.comps.Comp_VanyaUniversalShieldBelt.alias>New Hope</VanyaES_D14s.comps.Comp_VanyaUniversalShieldBelt.alias>
+  <!-- EN: V-D15 Blood Moon -->
+  <VanyaES_D15s.label>V-D15 Blood Moon</VanyaES_D15s.label>
+  <!-- EN: Vanya energy shield belt. Defender series. V-D15 was developed based on the experience of V-D5 Red Moon and V-D6 Darjeeling. V-D15 is a replacement for Darjeeling and V-D7 Maria. Only elite troops will equip it. -->
+  <VanyaES_D15s.description>Vanya energy shield belt. Defender series. V-D15 was developed based on the experience of V-D5 Red Moon and V-D6 Darjeeling. V-D15 is a replacement for Darjeeling and V-D7 Maria. Only elite troops will equip it.</VanyaES_D15s.description>
+  <!-- EN: Blood Moon -->
+  <VanyaES_D15s.comps.Comp_VanyaUniversalShieldBelt.alias>Blood Moon</VanyaES_D15s.comps.Comp_VanyaUniversalShieldBelt.alias>
+  <!-- EN: V-D16 Darjeeling X -->
+  <VanyaES_D16s.label>V-D16 Darjeeling X</VanyaES_D16s.label>
+  <!-- EN: Vanya energy shield belt. Defender series. Darjeeling X is also known as Super Darjeeling. it was developed based on the experience of V-D9 Aurora. Super Darjeeling uses a simplified V-D9 power system. Protection capacity improved. Darjeeling X is an attempt to develop a shield for space. -->
+  <VanyaES_D16s.description>Vanya energy shield belt. Defender series. Darjeeling X is also known as Super Darjeeling. it was developed based on the experience of V-D9 Aurora. Super Darjeeling uses a simplified V-D9 power system. Protection capacity improved. Darjeeling X is an attempt to develop a shield for space.</VanyaES_D16s.description>
+  <!-- EN: V-D3Kd shield belt -->
+  <VanyaES_D3Ks.label>V-D3Kd shield belt</VanyaES_D3Ks.label>
+  <!-- EN: Vanya energy shield belt. Defender series. One-time shield. The shield will disappear when the energy is exhausted. V-D3K is a public improvement type. This one-time shield reduces costs. V-D3K is the guardian of the poor. -->
+  <VanyaES_D3Ks.description>Vanya energy shield belt. Defender series. One-time shield. The shield will disappear when the energy is exhausted. V-D3K is a public improvement type. This one-time shield reduces costs. V-D3K is the guardian of the poor.</VanyaES_D3Ks.description>
+  <!-- EN: V-D3K Disposable -->
+  <VanyaES_D3Ks.comps.Comp_VanyaUniversalShieldBelt.versionInfo>V-D3K Disposable</VanyaES_D3Ks.comps.Comp_VanyaUniversalShieldBelt.versionInfo>
+  <!-- EN: V-D4F shield belt -->
+  <VanyaES_D4Fs.label>V-D4F shield belt</VanyaES_D4Fs.label>
+  <!-- EN: Vanya energy shield belt. Defender series. First generation of mass production improved type. V-D4F has a higher energy ceiling than V-D4C. V-D4F can easily handle a small-scale battle, so it is popular with travelers and guards. -->
+  <VanyaES_D4Fs.description>Vanya energy shield belt. Defender series. First generation of mass production improved type. V-D4F has a higher energy ceiling than V-D4C. V-D4F can easily handle a small-scale battle, so it is popular with travelers and guards.</VanyaES_D4Fs.description>
+  <!-- EN: V-D7Ed Maria D -->
+  <VanyaES_D7Es.label>V-D7Ed Maria D</VanyaES_D7Es.label>
+  <!-- EN: Vanya energy shield belt. Defender series. One-time shield. The shield will disappear when the energy is exhausted. Maria immune spirit attack and protection capacity greatly improved. V-D7 is one of the most popular products among frontline soldiers. -->
+  <VanyaES_D7Es.description>Vanya energy shield belt. Defender series. One-time shield. The shield will disappear when the energy is exhausted. Maria immune spirit attack and protection capacity greatly improved. V-D7 is one of the most popular products among frontline soldiers.</VanyaES_D7Es.description>
+  <!-- EN: V-D7E Disposable -->
+  <VanyaES_D7Es.comps.Comp_VanyaUniversalShieldBelt.versionInfo>V-D7E Disposable</VanyaES_D7Es.comps.Comp_VanyaUniversalShieldBelt.versionInfo>
+  <!-- EN: V-D8S Solar Corona -->
+  <VanyaES_D8Ss.label>V-D8S Solar Corona</VanyaES_D8Ss.label>
+  <!-- EN: Vanya energy shield belt. Defender series. Third Generation experimental type. V-D8 immune spirit attack. SolarCorona has unparalleled temperature protection and defense. -->
+  <VanyaES_D8Ss.description>Vanya energy shield belt. Defender series. Third Generation experimental type. V-D8 immune spirit attack. SolarCorona has unparalleled temperature protection and defense.</VanyaES_D8Ss.description>
+  <!-- EN: Solar Corona -->
+  <VanyaES_D8Ss.comps.Comp_VanyaUniversalShieldBelt.alias>Solar Corona</VanyaES_D8Ss.comps.Comp_VanyaUniversalShieldBelt.alias>
+  <!-- EN: V-D9 Aurora -->
+  <VanyaES_D9s.label>V-D9 Aurora</VanyaES_D9s.label>
+  <!-- EN: Vanya energy shield belt. Defender series. Third Generation experimental type. V-D9 immune spirit attack and has unparalleled energy recovery speed. Aurora has a super power system. It will be invincible if the user's ability is strong enough. -->
+  <VanyaES_D9s.description>Vanya energy shield belt. Defender series. Third Generation experimental type. V-D9 immune spirit attack and has unparalleled energy recovery speed. Aurora has a super power system. It will be invincible if the user's ability is strong enough.</VanyaES_D9s.description>
+</LanguageData>

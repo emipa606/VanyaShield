@@ -7,7 +7,7 @@ public class Comp_VanyaUniversalShieldBelt : ThingComp
 {
     private bool canFreshNow = true;
 
-    private CompProperties_VanyaUniversalShieldBelt ExactProps = new CompProperties_VanyaUniversalShieldBelt();
+    private CompProperties_VanyaUniversalShieldBelt ExactProps = new();
 
     private CompProperties_VanyaUniversalShieldBelt Props => (CompProperties_VanyaUniversalShieldBelt)props;
 

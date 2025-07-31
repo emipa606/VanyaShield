@@ -25,7 +25,7 @@ public class Vanya_ShieldBelt : Apparel
 
     private float energy;
 
-    private CompProperties_VanyaUniversalShieldBelt ExactComp = new CompProperties_VanyaUniversalShieldBelt();
+    private CompProperties_VanyaUniversalShieldBelt ExactComp = new();
 
     private Vector3 impactAngleVect;
 
@@ -171,7 +171,7 @@ public class Vanya_ShieldBelt : Apparel
         return EnergyMax * ApparelScorePerEnergyMax;
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
         if (Wearer == null)
